@@ -1,0 +1,874 @@
+id,step_id,original_verification,generated_verification,Do you agree with the generated verification?
+46092,5692,"[The computer should appear with the chosen name ""blueman_test"" in the list of Bluetooth devices.]","""Verify the 'Search for computer on Bluetooth device' action by checking if the RealDictRow displays 'id': 799, 'test_ id': 800, and 'header_ text' containing 'Bluetooth adapter' hidden or shown status.""",Disagree
+44044,3644,[A menu rolls down],"Click the ""Device:"" dropdown and verify the list contains [('id', 469), ('test__id', 470), ('header_text', 'This tests that Devices of xfce4 mouse settings works')]",Disagree
+44790,4390,[Did LibreOffice Draw launch?],"Verify the dashboard opens with ""LibreOffice Draw"" launched via super key and 'draw' entered, confirming application startup.",Neutral
+36075,2273,"[sudo -u postgres psql -l, should return a list of databases.]",The database is running and accessible.,Strongly Disagree
+16446,2459,[The Pause (or Play key if there is no separate Pause key) pauses playback],The video playback should pause or stop as expected when the Stop key is pressed.,Neutral
+39766,5964,[Machine suspends],"The verification for the action ""Press Suspend"" is the reaction to the user pressing the ""Suspend"" button on the UI.",Disagree
+49648,2650,"[The desk should be clean, right?]","""Verify that the option to remove tracks is present on the screen after clicking.""",Strongly Disagree
+13238,5849,"[Selected/active tab changes to ""Calendar window"" tab]","""verify click on 'Calendar window' tab"".",Neutral
+28604,1404,[The 'Erase disk and install FAMILY' radio button is selected and the 'Advanced features' button is active],"""Verify that there is no 'Erase disk and install FAMILY' radio button mentioned in the given precondition list. """,Neutral
+20086,6099,"[A window opens, which shows the Preview of the website in printing format]","Verify that the print dialog box appears after clicking ""Print..."".",Neutral
+21551,960,[Desktop locks],Desktop is locked after opening any application.,Agree
+61295,5709,"[The device is added to your computer. The ""Connect"" window appears.]","""Verify that the device is connected and the passkey is accepted. """,Neutral
+12355,4966,"[The word in the document is replaced with the one you selected from the suggestion list, and it is no longer marked with a red wave line in the document]","The test step would be ""Clicks the suggested word, then clicks the 'Change' button."""".",Strongly Disagree
+50438,3440,[The dash will show the Categories filter],Verify that a dropdown menu appears after clicking the arrow next to the search field.,Disagree
+46014,5614,[Selected image is duplicated in the current directory],Verifying selection of an image file and navigation to 'Edit -> Duplicate' in gThumb's window main area matches expected behavior.,Disagree
+32964,5764,[The corresponding region/city is displayed under the map],"The precondition describes a test checking time zone changes, but the mentioned action is unrelated to the test objective. No valid reaction or verification can be generated for this action within the given context.",Strongly Disagree
+17292,3305,[You see a panel (top bar) and a launcher (left bar) with buttons],"""Unity application window is visible on the screen after login.""",Strongly Disagree
+50763,3765,[Mines opens],"The verification is that the action ""Press Super+9"" should result in a specific change or behavior in the system.",Strongly Disagree
+25782,5191,[Firefox (or your default web browser) should open with the privacy policy listed.],"The user is navigated to the privacy policy page after clicking on the ""privacy policy"" button.",Strongly Agree
+39676,5874,[The application quits without any errors],"""Sure, here's the verification for the action: > The window title bar is clicked and closed.""",Strongly Disagree
+21415,824,[The 'Who are you?' screen appears],The user is navigated to the timezone selection page after clicking on the continue button.,Strongly Disagree
+35731,1929,"[For a upgrade, terminal will show Prompt=normal, For a upgrade, terminal will show Prompt=lts, For a upgrade, terminal will show Prompt=normal, For a upgrade, terminal will show Prompt=lts]","""Sure, here's the verification: > Open a terminal and enter the command grep Prompt= /etc/update-manager/release-upgrades""",Strongly Disagree
+28711,1511,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that the WIFI settings were successfully applied by checking /etc/netplan/wifi.yaml for the SSID and password, running ""ip addr"" to ensure a valid IP address on wlan0, and confirming successful pings to google.com.",Agree
+59086,3499,[The information of the album will appear in the Dash.],"""Verify that the album title is displayed on the page. """,Neutral
+24720,4129,[Ticks appear in 2 boxes],"Verify that both ""Box move"" and ""Resize"" options are selected in the advanced options interface.",Strongly Disagree
+28148,948,"[Confirm they are listed in the file manager, Confirm you are able to read files from it]",""" The opened file manager contains a folder with the name 'If you have other partitions...' (Raw Text: Contains folder named """"If you have other partitions..."""" in the opened file manager.)""",Strongly Disagree
+25899,5308,[A menu drops down],Verify that the Xfce4 Terminal window has maximized to fill the entire screen.,Strongly Disagree
+24530,3939,[Test shows in Name box],"Verify that ""Test"" is entered in the Name field and ""This test will check that Applications added the Autostart list start correctly. Logging out will be required."" is present in the Description field.",Neutral
+17944,3957,[Ensure that each are applied correctly.],"Verify that under 'Background' style, all options (Solid colour, Horizontal gradient, Vertical gradient, Transparent) are set to 'None'.",Disagree
+39172,5370,"[Xchat opens, connects to server, opens to channel in autojoin list]","The verification for opening Xchat after the action ""Open Xchat"" would be: ""Xchat closes properly, and will reopen with the settings previously applied"".",Strongly Disagree
+21713,1122,[The system will reboot.],"After performing the specified action to finish the upgrade, verify that the system is now running on the new release by checking the application logs or status screen.",Strongly Disagree
+18707,4720,"[The photo responds properly to the editing, and is now restored to it’s original condition]",Verify that no changes are made to the image or document content after pressing Ctrl+Z.,Disagree
+36655,2853,"[The ""Mixer"" window displays, and the meters show the dynamic sound levels.]","The ""Mixer"" button is clicked on the toolbar.",Strongly Disagree
+55974,380,[cat /proc/mdstat],"""Verify that the RAID arrays are accessible and functioning correctly. """,Strongly Disagree
+50572,3574,[The screenshot should be opened with the application chosen from the drop-down list],The selected application should open the screenshot copy successfully.,Neutral
+61159,5573,[Gigolo's GUI toolbar isn't visible],"""Verify that the toolbar is no longer visible. """,Strongly Agree
+44864,4464,"[The PowerPoint file should open correctly in LibreOffice., The layout, the display of characters, bullets and numbering should display correctly.]","Verifying: ""The opened file should be of MS PowerPoint format (with special characters in the language) - expecting file 'Test-Case name: libreoffice/ltb-029.ppt'"".",Neutral
+17530,3543,[The icon must disappear from the Launcher.],Verify that the BBC tab has been closed successfully with no active content remaining.,Disagree
+44556,4156,"[Dialogue disappears, Resolution remains as set]","Verifying that ""Keep this resolution"" option is selected, expecting display settings to be applied as described.",Strongly Disagree
+25785,5194,"[The ""Lock"" button should say ""Unlock"", and the ""Send error reports to Canonical"" checkbox should be disabled.]","Verify that the ""Diagnostics"" tab is displayed after waiting for approximately 20 minutes.",Strongly Disagree
+14303,316,[df -h],Verify that the system's installed memory size does not exceed 800 megabytes.,Strongly Disagree
+60531,4945,[Did the image rotate another 90 degrees to the right (clockwise)?],"""Verify that the image rotation changes to the next step in the sequence. """,Neutral
+15723,1736,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that a valid IPv4 address is assigned to wlan0 interface, and confirm successful ping response from google.com with no Ctrl+C interruptions within several seconds.",Agree
+15145,1158,[System displays 'Select Location'],Verify that the selected language is displayed correctly on the installed system interface.,Disagree
+49887,2889,"[The ""Monitoring Choices"" window opens]",Verify that the files are stored in the chosen location after clicking the Forward button.,Strongly Disagree
+15322,1335,[The system boots properly and loads the language selection menu],Verify that the system has booted up successfully and language selection options are displayed.,Strongly Agree
+50655,3657,[The distance before something starts draging increases and decreases],"""Confirm that the item was successfully dragged and dropped.""",Neutral
+32475,5275,[Mousepad saves the changes made to the file and closes],""" Checked that Mousepad successfully saved the changes made during the testing session. (Note: In this response, I used the given precondition to understand the intention of the test and generated a verification statement accordingly. The action 'Click Save' was performed as per the test requirement.)""",Neutral
+52499,5501,[The Gnumeric Manual opens],The 'Help' menu should open displaying relevant information for the Gnumeric software.,Strongly Agree
+19741,5754,[Conversation window shows You have parted the channel],The client joins the specified channel after successfully executing '/part' command.,Strongly Disagree
+41910,1510,"[The ""eth0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verifying that the system displays a valid IP address on eth0 and successfully pings Google.com with Ctrl+C, after completing the auto-configuration step.",Strongly Agree
+24125,3534,[The Launchpad icon appears in the launcher],"Verify that the Integrate button is clickable and after clicking, the application enters the integration flow.",Strongly Disagree
+33182,5982,[Calculator Help dialogue window opens],Verify that navigating to Help > Contents displays the specified test ID (856) in the menu.,Strongly Disagree
+28544,1344,[The system boots properly and loads into FAMILY showing the username you entered],""" The machine's internal state remains intact after performing the requested action of allowing the machine to reboot. In this case, since no specific response is required for the action 'Allow the machine to reboot', a general verification is provided. It indicates that the internal state of the machine remains unchanged regardless of this action.""",Disagree
+34353,551,[MAAS interface ask your credentials],"""Sure, here is the verification for the action: > The """"sudo maas-region-admin createsuperuser"""" command has been successfully executed on the MAAS computer.""",Strongly Disagree
+43272,2872,"[""Virtual MIDI keyboard"" opens.]","Verifying that ""Virtual MIDI keyboard"" starts in the ""MIDI UTILITIES"" sub-menu of the ""AUDIO"" section in the FAMILY menu.",Strongly Disagree
+59976,4390,[Did LibreOffice Draw launch?],"""Verify that LibreOffice Draw is launched and the application window is visible. """,Strongly Agree
+19898,5911,[The slideshow pauses.],"The slide presentation pauses, indicating successful interaction with the ""Pause slideshow"" toolbar icon.",Agree
+47871,873,[The detect keyboard layout screen appears],Verify that the country is selected and the action is completed successfully.,Strongly Disagree
+13603,6214,[Mugshot closes],"Verification result: ""Window is closed"".",Strongly Agree
+24458,3867,[The icons on the screen change to the newly-selected icon theme.],Verify that the selected icon theme is applied consistently throughout the Icons tab.,Strongly Agree
+32476,5276,[Mousepad opens with saved text],""" Checked that Mousepad successfully opened the saved file for editing, considering case sensitivity and saving functionality upon close. (Note: As a dummy test-runner, I don't actually perform these actions on a computer; I just generate a response based on the provided information.)""",Strongly Disagree
+19419,5432,[LibreOffice Writer closes],Verify that LibreOffice Writer is closed when clicking 'X' in the corner of the window.,Agree
+13081,5692,"[The computer should appear with the chosen name ""blueman_test"" in the list of Bluetooth devices.]","The verification result is ""The Bluetooth adapter icon is visible on the device's screen."""".",Neutral
+28742,1542,[Verify that keys typed on the keyboard appear on the console ],""" Confirm successful connection of USB keyboard to the Raspberry Pi 2 after completing installation steps at IoT installation media. Please note that I've combined the action and verification into one sentence as per your request.""",Strongly Disagree
+30480,3280,"[Nautilus window is restored (ie. not maximized anymore), Panel does not show window buttons, Panel shows the window title]","Verify that the ""Restore"" window button's label becomes visible after clicking it, resulting in the display of the header text 'Test-case panel/titlebar_maximized'.",Disagree
+29983,2783,[Blender stops],"""Verify if the 'Pause' button in QJackCtl successfully interrupts the JACK audio server, stopping Blender's synchronization with it. **Step:** Press """"Pause"""" in QJackCtl. **Raw Text ** The JACK audio server stops receiving audio from Blender after pressing the """"Pause"""" button in QJackCtl, confirming proper synchronization interruption.""",Strongly Disagree
+12052,4663,[Did the voice announce you are on the applications lens?],"The verification result would be ""App successfully opened"".",Strongly Disagree
+31084,3884,[There should be a slight change to the appearance of the fonts.],"Check if the ""Sub-pixel order"" value has been updated to BGR in the test_id element of the dictionary after performing the mentioned action.",Strongly Disagree
+47624,625,[A list with keyboard layouts is displayed],Verify that the selected country of the keyboard is correct.,Strongly Disagree
+47680,682,"[Name, username and password are accepted. Additionally, the continue button is enabled]","Verify that the user details and password were successfully inputted, excluding 'admin' as it is reserved for a Linux User.",Neutral
+59027,3440,[The dash will show the Categories filter],"""Verify that the dropdown menu with suggestions is displayed. """,Disagree
+49542,2544,[The 'Printer Properties' dialog opens at the Settings page],Check if the printer properties window opens.,Strongly Agree
+60768,5182,[Nothing should be added to the main window's list.],"""Verify that the application item is still selected and the """"Cancel"""" dialog box is closed. """,Disagree
+60323,4737,"[A new window should appear, select a subtitle file, Can you see the subtitles on the video?]","""Verify that the """"Subtitles"""" menu item is highlighted and the """"Subtitles"""" section is open. """,Agree
+28710,1510,"[The ""eth0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","""Verify if eth0 interface has a valid IP address and can ping google.com successfully by checking 'ip addr' and 'ping -c 4 google.com', then cancel with Ctrl+C. (ip addr show eth0 | grep inet | cut -d: -f2 | awk '{print $1}') && sudo ping -c 4 google.com &> /dev/null && sudo kill %PID (Ctrl+C)""",Disagree
+37977,4175,[They disappear from the side pane],"""Sure, here's the verification: The reaction for the action """"Eject both media again"""" would be that the real dictionary returns the same two rows with the same values.""",Strongly Disagree
+13893,6504,[The original dialog box should appear with two (2) buttons],"The verification is ""Dialog box closes successfully"".",Disagree
+43031,2631,"[you should have the same result using the key combination ""Ctrl+F""]","Return: ""Verify header_text displays as 'Fit in Window' in RealDictRow""",Disagree
+12665,5276,[Mousepad opens with saved text],Verify that the found saved file opens in Mousepad with case sensitivity preserved.,Neutral
+25866,5275,[Mousepad saves the changes made to the file and closes],"Verify that the ""Save"" button changes to a ""Saving..."" or similar indicator and then changes back to ""Save"" once the data has been saved.",Neutral
+14893,906,[Did the item change according to your click?],"Verify that the navigation controls display the correct arrows ("">"") and ("") when selected.",Disagree
+26305,5714,[A window appears showing a new Sudoku],"The system generates a hard-level Sudoku puzzle for the user after clicking on ""New Puzzle"".",Agree
+40992,592,[A web page is loaded which shows general information about the MAAS server and the 'ubuadm' username is listed instead of 'ubuntuadm'],"""Verifying clicking in the 'Save user' button and verifying the header text contains: 'Test-case name: maas/maas-006 depends: maas/maas-001 depends: maas/maas-002 depends: maas/maas-004 This test will check that an admin can edit an admin account from the MAAS server.'""",Strongly Disagree
+44340,3940,[LibreOffice Writer test shows in Description box],Verifying that the description box contains 'LibreOffice Writer test - Command box' as expected.,Strongly Agree
+34069,267,['Encrypt the new FAMILY Installation for security' and 'Use LVM with the new FAMILY Installation' is checked],"The verification for the given action is: ""Pass both the 'Use LVM with the new FAMILY Installation' and 'Encrypt the new FAMILY Installation for security' actions.""",Disagree
+34504,702,[An 'Installation Complete' dialog appears],The installer will wait until the process is finished.,Disagree
+19098,5111,"[A new ""Disc Burner"" window appears]","Verify that a plugin is selected and its configuration options are displayed after clicking ""Configure"".",Strongly Disagree
+59552,3966,[Observe that the icons change size correctly. Check that manually entering a value also has the required effect.],"""Verify that the icon size changes accordingly. """,Agree
+33880,78,[You will be presented with formatting options],"""Sure, here's the verification for the given action: > Verify that the pre-selected time zone is correct or select your time zone and press Enter""",Strongly Disagree
+59259,3673,[Scrolling only works when you scroll with two fingers pressed to the touchpad],"""Verify that the scroll wheel moves up and down on the webpage when two fingers are dragged up and down on the touchpad. """,Agree
+47403,405,[dpkg -l ubuntu-standard],The ubuntu-standard package is not installed.,Strongly Disagree
+8300,911,[Did the input method changed to Fcitx? Is the Chinese words input OK in Dash?],"The verification result is: ""Fditx input method switched successfully."""".",Agree
+30753,3553,[Gmail loads and the integration popup should appear],""" The system will verify if the user has successfully logged in by checking the presence of the current user object in the session. In response to the action 'Login with your username and password', the system will check if the user's credentials have been correctly entered and if the user is now authenticated. If these conditions are met, the system will verify if the current user object exists in the session, indicating a successful login process.""",Strongly Disagree
+41009,609,[A web page is loaded which shows general information about 'ubuadm'],"""Verify行政员成功点击'ubuadm'用户界面""",Strongly Disagree
+29074,1874,[The 'Check Erase Disk and install FAMILY' radio button is selected],"""Verify the current state of the 'Check Erase Disk and install FAMILY' radio button after noting its state. **Step 1: Note the state of the 'Check Erase Disk and install FAMILY' radio button.** **Current state:** Clickable, highlighted (if applicable), with potentially bold or italicized text. (Optional) Additional information: If the button is not clickable, hover-over functionality might be enabled. In that case, the tooltip will provide more details when hovering over the button.""",Strongly Disagree
+33399,6199,"[Did the system icons change to ""unity-icon-theme""?]","Verify that the 'header_text' field remains empty after performing the mentioned action, as no input is provided for this field during the described test step.",Strongly Disagree
+40262,6460,[The next file in the list starts playing],"""Sure, here is the verification for the action: """"The """"Next media"""" button should be visible and enabled.""""""",Agree
+35515,1712,[Audio can be heard through the device],"The verification for the action is: ""Mixer volume is set to a suitable level"".",Agree
+30814,3614,[The selected color is applied to the panel],"The color selected by the user and applied successfully, as indicated by the confirmation message upon clicking the 'OK' button.",Agree
+17143,3156,[A third arrow should now be visible on the left of the launcher icon],Verify that a new Firefox browser window is opened successfully on the current display.,Disagree
+44542,4142,"[The file manager closes, Application Finder opens]","""Verify the application finder has closed and the file manager, then press Alt+F2.""",Neutral
+14805,818,[The 'Erase disk and install FAMILY' radio button should be checked],Verify that the 'Erase disk and install FAMILY' radio button is checked.,Strongly Agree
+24935,4344,[Gedit closes],The text editor is no longer active or can no longer be seen on the screen.,Agree
+25076,4485,[Can the exported file be opened in PDF viewer?],Verify that the PDF file is opened correctly in the PDF viewer.,Strongly Agree
+21994,1403,[The 'Installation type' screen is displayed],Verify that the application advances to the next page after clicking the continue button.,Strongly Disagree
+13033,5643,[gThumg goes to the next visited location (after going back to a folder)],"Assert(""Go menu is active and content assist works"".);",Disagree
+26613,6022,[The context menu closes. The package is now check with an orange cross],"Verify that the selected package with id 862 is no longer listed or displayed as installed after clicking on ""Mark for Complete Removal"".",Disagree
+7985,596,[A web page is loaded which shows general information about the MAAS server and the 'ubuadm' username is listed],"The verification ""Admin's password is successfully changed"" is generated.",Strongly Disagree
+57620,2031,"[In Simplified Chinese ""清空并使用整个硬盘"" (Erase and use the entire disk) and ""现在安装(I)"" (Install Now)In Traditional Chinese ""消除並使用整個磁碟"" (Erase and use the entire disk) and ""立刻安裝(I)"" (Install Now)In Japanese ""ディスクを削除してUbuntuをインストール"" (Erase and use the entire disk) and ""インストール(I)"" (Install Now)In Korean ""디스크를 지우고 Ubuntu 설치"" (Erase and use the entire disk) and ""지금 설치(I)"" (Install Now)]","""Verify that a progress bar appears and the installation process begins. """,Strongly Disagree
+61504,5918,[The image appears in the main window.],"""Verify that the image selected in the thumbnail bar is now displayed in the main image area. """,Strongly Agree
+52931,5933,[The pad is saved and closed],"Verify that the pad closes successfully after clicking on the cross ""X"".",Neutral
+32866,5666,[gThumg goes to the next visited location (after going back to a folder)],"The Forward toolbar icon click response, as per the given precondition, is not present since there are no further steps mentioned after clicking the Forward icon.",Strongly Disagree
+58916,3329,[Window is semi-maximized to the left of the screen],"""Verify that the window is maximized. """,Disagree
+36729,2927,"[The alt-tab window should not appear, Application B should get raised and focused]",The reaction for the action 'Press alt + tab quickly' is not provided in the context.,Strongly Disagree
+38025,4223,[Backup location and folder are specified],"""Sure, here's the verification: The verification is that after clicking the """"Storage"""" tab and selecting a valid backup location, the UI should display the message """"Selected storage location.""""""",Neutral
+49342,2344,[The 'Configure the clock' screen is displayed requesting to verify or setup the timezone],"""Verify that the selected option is 'No'.""",Strongly Disagree
+15792,1805,[The 'Updates and other software' screen is displayed],Verify that the current keyboard layout matches the selected layout before proceeding.,Strongly Disagree
+45890,5490,[Gnumeric opens with blank Book1 file],"Click on Book1 on desktop, verify Gnumeric closes separate windows.",Neutral
+11948,4559,[Did Rhythmbox open with the Audio CD displayed in left panel tree?],"The verification is ""AssertTrue(dialog_has_appeared)"".",Strongly Disagree
+26601,6010,[A context menu appears],"If ""2ping"" is displayed as a search result, confirm that the checkbox corresponding to its name is selected.",Agree
+11346,3957,[Ensure that each are applied correctly.],"The verification result for this test step is "" Expected 'None', actual 'Solid colour'"".",Disagree
+58123,2535,[The new resolution is set correctly and the screen is still visible],Verify that the new resolution is set correctly and the screen is still visible.,Strongly Agree
+42429,2029,"[In Simplified Chinese ""继续""In Traditional Chinese ""繼續""In Japanese ""続ける""In Korean ""계속""]","""Verifying that the keyboard layout meets expectations, click Continue""",Neutral
+61637,6051,"[The file is removed, The size bar has changed]",Verify that the music file is no longer present in the list of files.,Agree
+33033,5833,[The pdf shows the same document as seen in the print preview],"Checked if the opened ""ubuntupdf"" file contains the text ""This test will check that leafpad can print a document"" from the tested document.",Disagree
+12336,4947,[Did the image rotate another 90 degrees to the left (counter-clockwise)?],"The verification is ""Verifies that the image has rotated correctly"".",Agree
+49686,2688,[Agave closes],Agave application closes successfully with menu or Ctrl+Q shortcut.,Agree
+17244,3257,"[""File"" menu appears]","Verify that clicking ""File"" results in a new menu option appearing under the app menu.",Strongly Agree
+19488,5501,[The Gnumeric Manual opens],Verify if the help documentation appears for Gnumeric after pressing F1.,Agree
+55690,96,[You should be prompted to enter a password],Verify that the user is logged in.,Strongly Disagree
+47562,564,[A web page is loaded which asks the details of a new user],The 'Add user' button should be successfully clicked.,Disagree
+41865,1453,[Write changes dialogue appears],"Verify that the ""Select any installation type"" option is selected, then click继续按钮, ensure the header text matches 'The scope of this test...'.",Strongly Disagree
+15862,1875,[The 'Erase Disk and install FAMILY' screen is displayed],"Verify that the ""Continue"" button becomes enabled after clicking.",Strongly Disagree
+58564,2977,[The dash should close],Verify that the dialog box is closed.,Strongly Agree
+50716,3718,[Time to start repeating letter decreases to 50ms],The letter should be repeated on the screen as long as it is held down.,Neutral
+34747,945,[The system logo and version in “Overview” page have been changed to the ones of UbuntuKylin],"Sure, here's the verification for the action you described:
+ 
+ > The indicator icon on the right top corner of the window should be clicked and the ""About this Computer"" menu item should be selected.",Disagree
+47851,853,[Embedded subtitles display proper localization name for audio tracks and subtitles.],Verify that the localization strings for embedded subtitles are correctly displayed.,Strongly Agree
+48787,1789,[The Screen Install FAMILY XX.XX alongside SYSTEM YY appears],Check if the 'Continue' button is enabled and clickable after clicking on it.,Strongly Disagree
+41184,784,[An 'Installation Complete' dialog appears],"""Verify that the installer has completed by checking if the 'RealDictRow' contains (id=70, test_id=71, header_text='') after waiting.""",Neutral
+10172,2783,[Blender stops],"The verification is ""Left-hand side widget should be synchronized with the right-hand side widget"".",Strongly Disagree
+19864,5877,"[The image opens and is displayed in ristretto's main window. In addition, if other images exist in the folder that the opened image was in, their thumbnails show up in the thumbnail bar to the left of the image.]","Check if Ristretto application displays the specified image after opening with ""File->Open"" command.",Agree
+38742,4940,[Did the file open correctly as a jpg?],"Sure, here's the verification for the given action:
+ 
+ ""Verify that the user is able to navigate to and see the 'Scanned Document.jpg' file in the /home/USERNAME/Documents/ directory.""",Disagree
+29055,1855,"[After a wait, the login screen appears]","The end user details, consisting of 'id' (162), 'test_id' (163), and an empty 'header_text' value, have been added as instructed and the test continues. 
+ 
+ Reaction for action: Add end user details and click Continue.
+ 
+ (Precondition: RealDictRow([('id', 162), ('test_id', 163), ('header_text', '')]))",Strongly Disagree
+33428,6228,[The menu opens],"Upon clicking the menu, the login dialogue with an image from Mugshot profile is displayed. Raw text: ""Login dialogue with Mugshot profile image after clicking the menu.""",Strongly Disagree
+52204,5206,[The torrent is paused],"Verify that the torrent is paused after clicking the ""Pause Torrent"" button.",Strongly Agree
+10257,2868,"[The ""Soundfonts""-tab displays with an ""open"" button on the right-hand side of it.]","""The 'Soundfonts'-tab is opened and visible.""",Agree
+60103,4519,[Default Share Group should be shown],Verify that 'smb://' share appears in the list of available shares.,Neutral
+23782,3191,[The application should close and the launcher should loose the focus],The keyboard focus moves to the next input field or element.,Strongly Disagree
+22405,1814,"[The 'Welcome to FAMILY ' slide is displayed, The slideshow is entirely in your language]",The system should display the header text of the next page after clicking the continue button. Verify that the header text is empty or contains no text.,Strongly Disagree
+61724,6138,"[If the tracks have lyrics and they are found from the various lyrics online sites that gmusicbrowser queries subsequently, the lyrics are shown]",Verify that the 'Lyrics' tab is selected and the content in the main area is the lyrics of the song.,Neutral
+49624,2626,"[A new interface appears, choose your settings and click on ""OK"", Could you print the file?]","Verify that the ""Print"" dialog window opens after clicking on ""Print..."".",Disagree
+33535,6335,[The file shows up in the search results],Verify if the input search query contains the exact phrase 'library is working' in the output results. Return result: ***** VERIFICATION ****.,Strongly Disagree
+29971,2771,[Blender opens properly.],"Verify that the opened Blender application has the STUDIO menu visible after performing the mentioned action.
+ 
+  raw text: ""Check if STUDIO menu is visible in opened Blender application.""",Disagree
+11195,3806,[The Choose a file to load dialog opens],"The verification is ""Verifies that the 'Test Bar' button is present"".",Strongly Disagree
+20593,2,[The applications are installed correctly and appear in the applications menu],Verify that the installed applications appear in the Ubuntu Software Center.,Neutral
+52465,5467,[Hidden files appear in main window],Verify that the hidden files are displayed after selecting 'Show Hidden Files' in the View menu.,Strongly Agree
+55670,76,[You should be asked if you wish to encrypt your home directory],Verify that the user is redirected to the dashboard page.,Strongly Disagree
+11031,3642,[xfce4 mouse settings opens],"Verification result: ""Mouse and Touchpad opens to show xfce4 mouse settings"".",Strongly Agree
+52735,5737,[Drop down menu appears],Verify that the default hardware device profile has been selected successfully.,Strongly Disagree
+10143,2754,[The MIDI Output port is highlighted],"The verification is ""MIDI Output port highlighted successfully"".",Strongly Agree
+16897,2910,[The Routing Grid shows for the Guitar input],"Verify that the ""Routing Grid"" option is selected when the ""Input to Guitar"" button is clicked.",Agree
+14284,297,"[Create a quick beat and play it - you should hear sound. If you aren't hearing any sound, make sure that connections are accurate in Carla ->Patchbay, and that your hardware levels are not muted., See http://help.ubuntu.com/community/UbuntuStudio/ProAudioIntro for more info on audio on Ubuntu Studio if you're having trouble. , You can close Hydrogen once you are done]",Verify that the application Hydrogen is launched successfully from the main menu interface.,Disagree
+60414,4828,[The Ubuntu Software Center is launched],Verify that the Ubuntu Software Center window is open and displayed.,Strongly Agree
+30557,3357,"[4 items appear, item ""Workspace 2"" is disabled]","Check if the ""Move to Another Workspace"" menu item is visible after moving the mouse to the item. 
+ 
+ (Note: In order to provide a single-line verification, I assumed that the action of moving the mouse to the ""Move to Another Workspace"" menu item would make the menu item visible. If this is not the case, the verification should reflect that.)",Disagree
+59526,3940,[LibreOffice Writer test shows in Description box],"Verify that the description box contains ""LibreOffice Writer test"" and the command box is selected.",Strongly Agree
+43154,2754,[The MIDI Output port is highlighted],Verifying that the 'MIDI Output' port is highlighted on the instrument as described in the precondition.,Strongly Agree
+13668,6279,[Terminal Emulator opens],"""Verify that the terminal emulator is launched successfully"".",Strongly Agree
+61075,5489,[Gnumeric closes],Verify that the Gnumeric application closes.,Strongly Agree
+33073,5873,[Ristretto starts up and the main window is visible on the screen.],"Check if Ristretto starts successfully by observing output in terminal window. 
+ 
+ (Note: Remember to replace 'terminal window' with the appropriate method or tool you use for displaying output, if it's not a standard computer prompt.)",Strongly Agree
+8554,1165,"[You should be prompted to confirm ( If you entered a weak password, confirm that you want to keep it or select no and enter a stronger one).]",assert 'Password was successfully added!' in response.,Disagree
+27839,639,[Can you use juju deploy $someservice and have it deployed in the MAAS node?],"Check if the deployed service exists in MAAS by navigating to `http://localhost:9443` and searching for 'someservice'. If found, proceed to the next test step. Otherwise, repeat the deployment process until successful.",Agree
+15491,1503,[System reboots successfully to a login prompt ],Check if the system has successfully rebooted after executing the command 'sudo reboot',Neutral
+38287,4485,[Can the exported file be opened in PDF viewer?],"Sure, here's the verification for the action:
+ 
+ ""The exported file can be opened successfully in a PDF viewer.""",Strongly Agree
+33310,6110,[Audio mixer opens],"Checked that the opened audio mixer allows controlling volume, muting/unmuting, and locking channels of soundcards according to the given header text.",Disagree
+48396,1398,[The system boots properly and loads the installer displaying Welcome dialog with language selection and 'Try FAMILY' and 'Install FAMILY' buttons],The image successfully boots up.,Agree
+25170,4579,[Notification on established connection appears],"Verify that a notification with the text ""Network connection established"" is displayed.",Agree
+40696,296,"[Start Jack and confirm it runs properly (DSP shows a percentage). Then stop jack to confirm it closes properly (DSP shows 0%). Finish by starting Jack and keeping it on for the duration of this test., Start Carla and keep it around for your Patchbay. ]","""Verify Studio Controls opened by clicking on 'Menu' and checking RealDictRow contains (id=43, test_id=44, header_text='Audio Check Before...')""",Strongly Disagree
+14563,576,[A web page is loaded which shows general information about 'ubuser'],Verify that the 'ubuser' user interface is displayed after clicking on the corresponding link or button.,Agree
+48092,1094,[Note the release version],The current release should be verified as part of the test step.,Strongly Agree
+58070,2482,[The ubuntu home page opens],Verify that the previous screen is displayed.,Strongly Disagree
+57095,1503,[System reboots successfully to a login prompt ],Verify the system reboots and the login prompt appears.,Strongly Agree
+37726,3924,"[User logged in to Desktop, LibreOffice Writer opens]",The Default button should be double clicked to check the functionality.,Strongly Disagree
+41893,1493,[Verify that keys typed on the keyboard appear on the console ],"""Verify USB keyboard connected to USB2 port connects successfully.""",Neutral
+34161,358,[cat /etc/initramfs-tools/conf.d/mdadm],"Sure, here's the verification for the given action:
+ 
+ > Verify that the BOOT_DEGRADED setting is ""TRUE"" in /etc/initramfs-tools/conf.d/mdadm:",Neutral
+47198,200,[The test should finish and show any errors],Wait for the test to finish before proceeding with verification.,Agree
+33806,4,[The disk is mounted and you can open and/or play files/tracks from it],"The verification for the action is: ""Verify that the current row contains a 'video_type' element with value 'DVD' or 'audio_cd'"".",Strongly Disagree
+23046,2455,"[The word processor should open the file, Every Character should still be there]",The content of 'demo3.txt' file is displayed in LibreOffice Writer or abiword after opening it.,Agree
+41346,946,[All the above applications should be preinstalled and could be started normally],"Verifying that the Dash button displays the list of application names: Chinese Calendar, Weather Indicator, Youker Assistant, Fcitx, and Chromium, with each name correctly filled.",Disagree
+34514,712,[The 'Wireless' screen is displayed],The verification for clicking on the continue button is not provided in this context.,Strongly Disagree
+18728,4741,[Did you feel the change of volume?],Verify that the volume level changes as expected when adjusting the controls.,Strongly Agree
+45658,5258,[Mousepad opens with saved text],"""Verify that Mousepad opens the saved file by displaying 'This test will check that Mousepad can save and open saved files' in the header""",Agree
+11440,4051,"[The ""Line power"" icon reads ""Plugged in"", The battery vendor icon displays the status of the battery charge]","The verification would be ""assert 'laptop plugged in' == out.test_id"" for this action.",Disagree
+16336,2349,"[The installer proceeds with the configuration of the package manager, The 'Configuration tasksel' screen is displayed requesting to define the upgrades management]","Verify that the input field remains empty after pressing ""Enter"".",Strongly Disagree
+43586,3186,[a new Firefox window should open],"""Press space"" verification: Verify that ""header_text"" matches ""Test-case launcher/keyboard-nav-startappwindow"".",Strongly Disagree
+9136,1747,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","""wlan0 interface has valid IP address and successfully pings Google.com"".",Strongly Agree
+40729,329,[sudo mount],"""Verify that the root and home file systems are mounted from md devices by checking the 'Server basic RAID1 install' header_text for evidence of md devices.""",Neutral
+33000,5800,[Change User Type dialogue opens],"The account type changes successfully, as indicated by the confirmation message. 
+ 
+ Justify: Since no specific verification was provided apart from the general statement ""The test verifies that Users settings can be amended"", I composed a verification that aligns with this context, suggesting the successful alteration of the account type based on the confirmation message.",Disagree
+21341,750,[The machine has been rebooted],Verify that the 'id' 69 row with test_id 70 is no longer displayed.,Strongly Disagree
+44123,3723,[Speed of key repeat decreases],"""Verifying that the 'header_text' field displays 'This test will check that keyboard behavior is correctly applied. The test will require the machine to restart twice.' upon pressing and holding a letter in the Test Area.""",Strongly Disagree
+22320,1729,[System reboots successfully to a login prompt ],"After running `sudo reboot`, verify that the Raspberry Pi Compute Module 4 4GB is rebooting and that the USB ports on the IO board are functioning correctly.",Disagree
+31342,4142,"[The file manager closes, Application Finder opens]","Check if the application finder opens successfully after closing the file manager and pressing Alt+F2.
+ Raw text: ""Application Finder doesn't open since the file manager was closed and Alt+F2 was pressed.""",Agree
+15109,1122,[The system will reboot.],"Type ""sudo systemctl daemon-reload; sudo systemctl restart"" and verify server restarts after command execution.",Disagree
+60511,4925,[Gwibber goes back to the timeline window],Verify that the text is sent to the Twitter account associated with the 'test_id' 684.,Strongly Disagree
+50849,3851,[Settings dialog closes],Verify that the Settings dialog closes after clicking the Close button.,Strongly Agree
+59551,3965,[and observe that all desktop icons disappear. They should reappear upon reselecting 'File/launcher icons'],"Verify that the icon type is set to ""None"".",Disagree
+32575,5375,"[The image is downloaded, then displayed on the screen]","The test successfully completed, proceeding to the next step involving a working URL. 
+ 
+ (Note: This verification assumes that the given precondition is met without any issues.)",Disagree
+42274,1874,[The 'Check Erase Disk and install FAMILY' radio button is selected],Verifying the 'Check Erase Disk and install FAMILY' radio button displays as selected with id 163 and test_id 164 under header_text '' after meeting the given precondition.,Agree
+44859,4459,[The document can be saved in the changed format.],"""Verifying LibreOffice Calc saves Excel document as ODS file named 'Test-case name: libreoffice/lbc-026' with ID 597_598.""",Neutral
+8872,1483,[Audio can be heard through the device],"""mpg321 plays 'Jeff Wayne - War of the Worlds.mp3' successfully""",Neutral
+35604,1802,[Previously installed system boots and operates as expected],"Sure, here's the verification for the action:
+ 
+ ""The machine has been rebooted, and the previous installed system is selected.""",Agree
+9940,2551,[The option to print a test page appears],"The verification is ""Verify that the new printer has been successfully added with the entered name and description"".",Disagree
+52930,5932,[The text appears in the pad],"Verify that the text ""Lubuntu is a lightweight distribution."" has been successfully inserted.",Neutral
+59522,3936,[Tick not shown in box],Verify that 'Display Chooser on Login' checkbox is checked in General Tab.,Disagree
+61179,5593,[Save Image dialogue window opens],"Verify that the ""Save As"" dialog box is open with the selected image file name as the default file name.",Agree
+32725,5525,"[Ensure preconditions, System Settings... ->Displays is in its default configuration, 2nd monitor is already connected and on prior to boot]","The ""built-in display"" option is present in the header_text, so the preparations step is consistent with the given scenario. 
+ 
+ (Note: In a real manual test, this would be part of a larger script or description, and the single sentence string here represents the verification of the specific action 'Preparations' within the given precondition.)",Strongly Disagree
+23116,2525,"[The window disappears, The icon is removed from the desktop]","Verify that the card reader ejects correctly and the ID ""him-002"" is remounted in the system.",Strongly Disagree
+38702,4900,[Additional elements disappear],"Sure, here's the verification for the action ""Click on the same message"":
+ 
+ ""The message is clicked on successfully.""",Strongly Disagree
+35413,1611,"[Start the interactive questionnaire about the basic network configuration and make sure the URL to image (that needs to be specified in addition) is accessible (hence, ideally point to the image located on the install server.)]",The installer will interactively ask about the basic network configuration if the parameter file is not specified.,Neutral
+21128,537,[Partition window display the disks available],"The user has selected ""Guided - Use entire disk"" option during partitioning.",Strongly Disagree
+53005,6007,"[A window appears, showing the summary]","Verify that the ""Apply"" button is clicked successfully.",Strongly Disagree
+23461,2870,"[""FluidR3_GM.sf2"" is loaded and listed in the ""Soundfonts""-tab of Qsynth setup window.]","Verify that the ""FluidR3_GM.sf2"" file is loaded and displayed in the Qsynth interface after being opened.",Agree
+9348,1959,[The 'Erase disk and install FAMILY' radio button is selected],"Verification result is ""Expected value: 'checked'"".",Strongly Disagree
+29716,2516,[The card is recognised],"Check if the reader acknowledges the insertion of the media card by displaying 'Media Card Reader: [Card Name]' on the screen. (Raw Text: ""Media Card Reader: [Card Name]"")",Strongly Agree
+12431,5042,[The files are added to the project],VerificationError: assert len(audio_files) >= 3.,Strongly Disagree
+15791,1804,"[The 'Keyboard Layout' screen appears, The proposed keyboard corresponds with your keyboard]",Verify that the 'Install Family' button is visible and clickable.,Strongly Disagree
+35112,1310,[An 'Installation Complete' dialog appears],"The verification for waiting for the installer to finish is: ""Installer has finished running"".",Agree
+56731,1140,[You should be asked to confirm the action],Verify that the selected disk is mounted and the installation process progresses to the next step.,Neutral
+16694,2707,"[The ""Open Audio Files"" window opens]",Verify that an audio file is added to the Tests list under the specified test ID.,Disagree
+32963,5763,[The Time zone dialog appears displaying a world map and a 'Time zone:' selector],"The 'Time zone:' field is clickable, leading to a page with options to change the time zone. 
+ 
+ (Note: Converting given text into required single sentence format.)",Agree
+11598,4209,"[The USB drive is mounted, Thunar opens and you can open files from USB]","""USB drive inserted successfully""!",Disagree
+53589,6591,"[The output and input pages should list all detected hardware, both internal and USB, and allow for volume adjustment]",The sound settings window should display both output and input pages.,Disagree
+48416,1418,[The machine is rebooted],The disc has been successfully removed.,Strongly Disagree
+27122,6531,"[10 files are created in your folder, named 1.txt through 10.txt]",Verify that ten new files have been created after performing the touch command.,Agree
+37710,3908,[Tick appears in box],"The element ""Display chooser on login"" is present in the element ""Session chooser"".",Disagree
+44246,3846,[Settings dialog closes],"""Verify Close Button click confirms settings dialog closed without error""",Neutral
+44741,4341,[Text appears],"Verifying that the input field with id 'link_to_ubuntu' contains ""Link To Ubuntu"" after typing in ""<a href=""http://www.ubuntu.com"">Link To Ubuntu<a/>""",Disagree
+25166,4575,[Notification on established connection appears],"Verify that a notification with the header text ""Connection established"" appears on the screen.",Strongly Agree
+56136,542,[A grub dialog is displayed],Verify that the installation completes successfully and the MAAS server is operational.,Strongly Disagree
+61155,5569,[The interval (in seconds) at which Gigolo auto-connect bookmarks changes accordingly. A value of 0 disables this feature],Verify that the 'Bookmark Auto-Connect Interval' setting reflects the changed value.,Strongly Agree
+59508,3922,[User is logged out],Verify that the user is logged out and the application does not remember the session.,Agree
+46665,6265,"[Networking is enabled, notification of available connection]","""Verify Network indicator is enabled by clicking 'Enable Networking' (id: 919, test_id: 920, header_text: 'This test')""",Disagree
+30677,3477,[The Music lens will appear.],Check if the Music lens icon is clickable by navigating to the desired page. (Raw text: M lens icon clicked),Strongly Disagree
+41884,1484,"[The ""eth0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","""Verify auto-configuration of Ethernet shows a valid IP on eth0 with Ctrl+C to cancel, expecting IP address to be present and google.com pings successfully (3+ times).""",Neutral
+15946,1959,[The 'Erase disk and install FAMILY' radio button is selected],"The 'Erase disk and install FAMILY' radio button is found unchecked, indicating that the installation process has not yet initiated.",Strongly Disagree
+20856,265,[The 'Erase disk and install FAMILY' radio button is selected and the 'Advanced features' button is active],"Verify that clicking the ""Erase disk and install FAMILY"" radio button does not result in any visible changes to the application interface.",Strongly Disagree
+51710,4712,[The cropped square moves and a grid will appear that divides the cropped area into nine smaller squares],Verify that the square moves to the left side of the image after being clicked and dragged with the mouse.,Strongly Disagree
+37290,3488,[The Dash will appear showing the home lens.],"Sure, here is the verification for the action:
+ 
+ ""The Dash icon should be clicked.""",Agree
+10145,2756,[The MIDI Input port is highlighted],"The verification result is ""Midi input port highlighted successfully""",Agree
+16592,2605,[Can you feel the change],Verify that multiple instances of audio files with varying input volumes are recorded and saved as separate files.,Strongly Disagree
+57349,1756,[Appearance applet launches],Verify that the 'appearance' tab is displayed.,Neutral
+38884,5082,"[The item is renamed to ""Folder""]","Sure, here's the verification:
+ 
+ The New folder item is clicked, and the text ""Folder"" is entered into the input field.",Strongly Disagree
+29986,2786,[Darktable opens properly.],The Darktable application opens properly from the STUDIO menu after following the given action of opening it from the PHOTOGRAPHY subsection within the GRAPHIC DESIGN subsection in Main Menu.,Agree
+61568,5982,[Calculator Help dialogue window opens],"Verify that the ""Calculator Help"" window is displayed.",Strongly Agree
+23509,2918,"[You should see an alt tab dialog appearing after few milliseconds, showing icons for ""show desktop"", application A and application B. The application B icon should be highlighted]",The focus is on the previous application or window before the current one.,Disagree
+9746,2357,"[A ""JSP 2.0 Expression Language - Basic Arithmetic"" page should be brought up]",The verification for this test step is: Verify that the page displays a simple arithmetic operation example.,Disagree
+40942,542,[A grub dialog is displayed],"""Verify that the installation process completes by verifying the presence of 'Test-case name: maas/maas-002' in the RealDictRow.""",Strongly Disagree
+12771,5382,"[GNOME Mines opens at the ""New Game"" screen]","The verification is ""GNOME Mines opened successfully"".",Agree
+37800,3998,[The Xfce Power Manager dialog opens at the General tab],"Sure, the verification for clicking ""Power Manager Settings..."" would be:
+ 
+ ""The ""Power Manager Settings..."" button is clicked successfully.""",Disagree
+48195,1197,[You should be asked to create a new partition table],Disk selected successfully.,Strongly Disagree
+9225,1836,[Selected drive is displayed on the chart],"The verification should be "" Verify that the device file corresponding to the drive selected on the Select drive list corresponds to the device file representing the drive on the chart, for example '/dev/sda'."";",Agree
+12451,5062,"[A new window should appear called ""Split Track""]","The verification is ""Expected result: The selected file has been split into two separate audio tracks."""".",Neutral
+48984,1986,"[The 'Welcome to FAMILY ' slide is displayed, The installer's slideshow slides are localized]",Verify that the continue button is clickable.,Strongly Disagree
+33109,5909,[The previous image in the Thumbnail bar is displayed in the main window. The thumbnail bar scrolls to keep the current image visible.],"Verify that the page displays the correct ""Previous Image"" button after clicking on it, located just above the ""Next Image"" button. 
+ 
+ Please provide the precondition for the next step in the test case.",Strongly Disagree
+17586,3599,[The panel orientation is set to the selected orientation],Verify the panel's orientation is set as chosen.,Agree
+39952,6150,"[Are the lunar date, the compatibility and incompatibility of the lunar calendar and the schedule that day showed on the right of the application window correct?]","Sure, here's the verification you requested:
+ 
+ ""The non blank part on the application window of Chinese Calendar for any date should be clicked.""",Strongly Disagree
+38515,4713,[The photo is now cropped and contains only the area selected],"Sure, here's the verification for the action ""Click OK"":
+ 
+ "" The action successfully triggered the expected outcome, which was the click of the OK button.""",Strongly Disagree
+35761,1959,[The 'Erase disk and install FAMILY' radio button is selected],"Sure, here is the verification for the action:
+ 
+ > The 'Erase disk and install FAMILY' radio button is not selected.",Strongly Disagree
+53392,6394,"[The ""Create Time Signature"" step now appears]","Verify that the ""Next"" button is successfully clicked.",Strongly Disagree
+12571,5182,[Nothing should be added to the main window's list.],"The verification is ""Expected page to remain unchanged"".",Disagree
+61585,5999,"[The window closes, the additional packages now marked in green]","Verify that the ""Mark"" button is now highlighted.",Neutral
+55932,338,[cat /etc/initramfs-tools/conf.d/mdadm],"Verify that the line 'BOOT_DEGRADED=""FALSE""' is present in the /etc/initramfs-tools/conf.d/mdadm file.",Disagree
+42999,2599,[Is the Zoom working?],"Click on ""Zoom In"" and verify the header text is 'This test will check that Audacity Edit Toolbar Works'.",Agree
+11007,3618,[The selected image is applied as a background image for the panel],"""The selected background image is applied to the panel.""",Disagree
+52954,5956,[Session starts with the expected font options],"Verify that the user is successfully logged in after entering the required password and pressing ""Log In"".",Strongly Disagree
+19770,5783,"[Software Updater starts, checking for updates as it opens, Update Manager opens showing available updates]",Verify that the Update Manager is successfully opened from the Family Menu.,Disagree
+57443,1852,[The timezone screen is displayed],Verify that the URL contains the selected language.,Strongly Disagree
+26838,6247,[Machine returns to unlock dialogue],Verify that the session is no longer accessible after bringing the machine out of suspension and generating input through mouse movement or a keyboard press.,Disagree
+26407,5816,"[Dialogue closes, test user removed from list]","The ""Delete Files"" button is now disabled after selecting an item with id 824.",Strongly Disagree
+34126,324,"[RAID1 array for /, RAID1 array for swap, RAID1 array for /home (testing non-rootfs raid)]","Sure, here's the verification for the action:
+ 
+ > The partition method is successfully set to ""Manual"".",Strongly Disagree
+60044,4458,[The document opens.],Verify that the Excel document opens without errors and the special characters are displayed correctly.,Neutral
+13306,5917,[The image is properly displayed fullscreen and returns to normal window mode when the Escape key or F11 is pressed.],"The verification is ""Expectedly, the browser window should go into full-screen mode"".",Agree
+23420,2829,[The preferences window opens],"The Preferences window should be displayed after selecting ""Tools >Preferences"" from the menu.",Neutral
+38716,4914,[Is the Gwibber Timeline window blank?],"Sure, here's the verification:
+ 
+ ""The reaction for the action 'Go back to Gwibber' will be generated.""",Disagree
+20971,380,[cat /proc/mdstat],Verify that the output of the 'smdtctl --status' command shows all RAID arrays as Active and Synced.,Strongly Disagree
+58722,3135,[System Settings should close],Verify that the application has closed.,Strongly Agree
+49667,2669,"[A new interface appears, Select values and change the file name and output folder. (sample-data and Home directory by default)., Click on OK. Could you create the file in the directory?]","""Verify that the Simple Data Export window opens successfully.""",Strongly Disagree
+22147,1556,"[Check that the U-Boot prompt (including a two-second wait) appears on the attached serial console, that the keyboard will interrupt the sequence, and that boot successfully concludes after resumption. ]","Verify that U-Boot interacts via serial during boot sequence, and the sequence can be interrupted and continued with the command ""boot"" after pressing a key.",Neutral
+22093,1501,"[Check that the U-Boot prompt (including a two-second wait) appears on the attached serial console, that the keyboard will interrupt the sequence, and that boot successfully concludes after resumption. ]","Verify that U-Boot interacts via serial during the boot sequence and can be interrupted with a key press, then continued with the command ""boot"".",Neutral
+17657,3670,[Tapping on the touchpad does the same as clicking],"Verify that a button is marked as 'ticked' under the ""Tap touchpad to click"" checkbox.",Strongly Disagree
+48850,1852,[The timezone screen is displayed],Verify that the page proceeds to the next step after clicking Continue.,Strongly Disagree
+13210,5821,[A save dialog appears],"The verification ""Click on 'File' in menu bar, then 'Save'"" is expected to succeed.",Agree
+59529,3943,[Add application dialogue closes],Verify that the dialog box is closed.,Strongly Agree
+15521,1534,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that a valid IP address is assigned to wlan0 interface after waiting for DHCP completion, and confirm successful Google pings.",Agree
+44488,4088,[Window title font changes],"Verify ""Window title font changed to 'Custom Font'"".",Neutral
+56331,738,[The 'Preparing to install FAMILY' screen is displayed],Verify that the user is redirected to the next page.,Disagree
+38498,4696,[rhythmbox should launch],"The verification for this action is: ""The dash is opened and Rhythmbox is launched successfully.""",Strongly Agree
+13311,5922,[The thumbnail bar is visible in fullscreen mode.],"The verification step is ""Verify that the thumbnail bar is indeed hidden after unchecking the 'Hide thumbnail bar when fullscreen' checkbox.""",Neutral
+7553,164,"[Press Enter to proceed into the rescue mode, Type in standard commands like ls, cd /usr/games/, ls, cp sol sol1, ls, Ensure that changes have been made and that there is a new file created, Type Exit and press Enter to return to the menu]","The command ""mkfs -m /dev/sda1"" with output ""Filesystem has been mounted from /dev/sda1"".",Strongly Disagree
+48979,1981,[Selected drive is displayed on the chart],Verify that the drive selected on the Select drive list corresponds to the drive on the chart.,Strongly Agree
+45776,5376,[The two dock windows (Toolbox and Layers) are hidden],"""Verifying selection of image window and hiding docks by going to Windows > Hide Docks, expecting 'Test-case name: gimp/... to be hidden'.""",Disagree
+50854,3856,"[The ""Appearance"" module is loaded into the ""Settings"" window replacing the ""Settings"".]","Verify that the ""Appearance Setting Dialog"" is visible in the ""Settings"" dialog after clicking on the ""Appearance"" module.",Disagree
+61069,5483,[Gnumeric closes],Verify that Gnumeric closes without error.,Strongly Agree
+41487,1087,"[Return: Prompt=normal, If Prompt=normal then: sudo sed -i 's/Prompt=never/Prompt=never/', If Prompt=lts then: sudo sed -i 's/Prompt=lts/Prompt=never/']","Verifying the release-upgrade setting by checking if 'Prompt=update-neighborhood' appears in /etc/update-manager/release-upgrades, expecting result to be 'true'.",Disagree
+28424,1224,"[Name, username and password are accepted. Login options and home folder encryption choices shown, Continue button becomes available]","The system responds with an error message, stating ""Invalid input. Please ensure you enter a non-empty string for the 'header_text' field."" after performing the action of inputting initial user details and password.",Strongly Disagree
+49300,2302,"[service cups status, should state that the cupsd is running.]",Verify that the cups service is running on the system.,Strongly Agree
+50758,3760,[Shortcut Command dialogue opens with LibreOffice Writer highlighted],Verify that the 'LibreOffice Writer' opens up with a blank document after double clicking on the Command.,Neutral
+45882,5482,"[Gnumeric window name changes to Book1.Gnumeric, Book1.Gnumeric shows on Desktop]","""Verify that the file name 'Book1' is set as destination and saved to desktop without error after opening Gnumeric and creating a new file.""",Neutral
+18374,4387,[Did LibreOffice Impress launch?],Verify that LibreOffice Impress starts successfully upon entering 'impress' after opening the dash with the super key.,Agree
+22570,1979,[The 'Erase disk and install FAMILY' radio button should be checked],"Verify that the state of the ""Erase disk and install FAMILY"" radio button is observed before the Internet interruption during installation.",Disagree
+39737,5935,"[A window opens, showing the font properties]","Sure, here's the verification:
+ 
+ The font named ""XPad"" should be used in the pad properties after clicking on the font name.",Disagree
+20956,364,"[Power off the system, Disconnect one of the disk (disk 2) - disk 1 connected, disk2 disconnected., Power on the system, Check that on boot a question to enable and boot from a degraded array is asked., Say yes, Check that system boots correctly from the degraded RAID1 array:, cat /proc/mdstat, Power off the system, Disconnect the first disk (disk1) and reconnect the second disk (disk2) - disk 1 disconnected, disk 2 connected., Power on the system., Check that on boot a question to enable and boot from a degraded array is asked., Say yes, Check that system boots correctly from the degraded RAID1 array:, cat /proc/mdstat]",Verify that the system boots successfully after degrading the RAID array and attempting to boot from it as a cold disk.,Disagree
+37742,3940,[LibreOffice Writer test shows in Description box],"Sure, here's the verification:
+ 
+ > The description box should contain ""LibreOffice Writer test"".",Agree
+33712,6512,"[GDebi should prompt you to install vrms, type ""y"" then Return, then GDebi should successfully install vrms]","Check if the command ""sudo -H gdebi vrms_PACKAGEVERSION_all.deb"" successfully installs the vrms package with the specified version, using the GDebi interface from the command line.",Neutral
+42884,2484,[The page stops loading],"""Press Stop key and verify webpage load timeout (page fully unloaded) after opening 'Web browserCase ID: khk-004.'""",Agree
+44110,3710,[Tick disappears from box],Verify that the 'Restore num lock state' button toggle action changes the corresponding value in the RealDictRow as expected.,Strongly Disagree
+13438,6049,"[If this is your first time a message appears about adding your home directory, A new window asking for files appears]","The verification is ""Expecting a successfully added audio composition"".",Strongly Disagree
+11534,4145,[Application Finder opens to command listings],Verify the application finder correctly clears stored commands after pressing the down arrow.,Disagree
+41533,1133,[You should be prompted for a user name],"Verifying the input 'Your name' matches the expected output 'id: 109, test_ id: 110, header_ text: This test will check installation of xubuntu minimal with tasksel'.",Disagree
+48961,1963,[The 'Where are you?' screen is displayed],Verify that the installation process begins after clicking on the Install Now button.,Strongly Disagree
+13267,5878,"[A copy of the file is saved properly. In addition, the original file remains in the main Ristretto window.]","The test step is: ""Click 'File' menu, then click 'Save As', select the saved location 'C:\\path\\to\\file', and verify that the file has been saved successfully.""",Strongly Agree
+30367,3167,[The launcher should unfold the icons and your cursor should be on the one you pointed],"Verify that the cursor movement can be smoothly navigated over the folded launcher icon, without any apparent hiccups or delays. 
+ 
+ Please note: The input provided seems to be missing a context for what should be verified about the cursor movement. If you could provide more details or a specific assertion to verify, I would be able to generate a more accurate verification in raw text.",Disagree
+9125,1736,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","""wlan0 has valid IP and can ping google.com successfully"".",Agree
+27202,2,[The applications are installed correctly and appear in the applications menu],"Check if Ubuntu Software Center is opened successfully by clicking on its icon and observing the interface. 
+ 
+ Please note that since we are only providing a single sentence string with no other texts, the actual implementation or response may not fully address all aspects of the task mentioned in the question.",Strongly Disagree
+8118,729,"[GUI is shut down, a prompt to remove media and press Enter appears]","The verification result is ""Button Clicked Successfully"" with a green checkmark.",Strongly Disagree
+47179,181,"[Card Type: Import test recorderFile path: file:/srv/sintel_trailer-480p.mp4, When you put in the file path, it should detect the ""File info"" and ""File size""]",Verify that the new card is successfully set up with the specified options.,Neutral
+61619,6033,[Accessibility dialogue window opens],"Verify that the ""Accessibility"" window opens.",Strongly Agree
+48348,1350,"[Test the keyboard layout in the given box, which should be set correctly]","Verify that the keyboard layout selection screen is displayed after clicking ""Next"".",Strongly Agree
+57101,1510,"[The ""eth0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]",Eth0 interface has a valid IP address and successfully pings google.com a few times.,Agree
+10984,3595,[A popup menu appears],"The verification is ""The contextual menu appears."";",Neutral
+49953,2955,[The focus should go over the previous window of the same application],The window focus should switch to the next open application.,Strongly Disagree
+38723,4921,[Additional elements disappear],"The verification for clicking on the same message is not provided in this context, so I cannot generate the requested response.",Strongly Disagree
+21811,1220,[Full drive space is allocated for installation],"Verify that the entire drive is utilized, as indicated by the operating system.",Strongly Agree
+50564,3566,[The take a screenshot window should be displayed],Verify that the 'Screenshot' application has been successfully opened.,Strongly Agree
+49815,2817,[The surround of the large red dot begins flashing],Verify that the large red dot on the toolbar is highlighted or activated after clicking.,Neutral
+32158,4958,[Abiword opens successfully],"The application opens successfully, allowing interaction with the document.
+ 
+ (Raw Text: The application opens successfully, allowing interaction with the document. )",Disagree
+14525,538,[A confirmation window is displayed],Check if a specific disk is selected prior to initiating disk partitioning actions.,Strongly Disagree
+17398,3411,[The More suggestions section of the dash will show your entered value as a result],"""Verify that clicking the More suggestions category displays relevant additional options or content.""",Disagree
+23165,2574,[The troubleshooting screens appear as expected and a test page prints],Verify that a test page with the specified header text has been printed.,Agree
+61397,5811,[Permission for property changes],Verify that the 'test account' permission is changed successfully.,Disagree
+10891,3502,"[The dash will show the payment confirmation again, with the message: Wrong password]","The verification would be ""Verify that the authorization fails with timeout exception"".",Strongly Disagree
+29988,2788,[Darktable properly imports RAW photos to library.],Checked if imported photos are displayed in Darktable's library after opening the chosen folder.,Agree
+15071,1081,"[When asked, add sudo password, apt-get will perform a normal update]",The system should successfully run 'sudo apt-get update' without any error messages.,Disagree
+46434,6034,[Accessibility closes],"Verifying the ""Close"" button is clicked with no errors, after opening Xfce4 Accessibility Settings from the applications menu.",Disagree
+25554,4963,"[A dialog box asks you to save changes, The Application correctly closes without error]",Verify that the modified .abw file has been saved correctly after closing the Abiword window.,Strongly Disagree
+46015,5615,[Selected image is moved from the current directory to the trash],"Verify selection of an image, then navigate to 'Edit > Move to Trash', expect ""id: 791"" to be present in RealDictRow.",Disagree
+30274,3074,"[The HUD should still be visible, but the list of entries empty and the search field displaying the default ""Type your command"" text]","Check if the current screen is empty after pressing 'Escape'. 
+ 
+ (Note: Since this is a simulated manual test, pressing Escape may have no actual physical effect on the screen. In such cases, consider checking for an expected change in the application's state instead.)",Disagree
+25008,4417,[Was the content not altered?],Verify that the special characters in the LibreOffic Impress file and MS PowerPoint file are displayed correctly.,Disagree
+32689,5489,[Gnumeric closes],"Step reaction: Pressing Ctrl+Q.
+  The output console will display ""Quitting..."" as Gnumeric saves the input and exits. (This test checks if Gnumeric accepts input and saves As.)",Agree
+42208,1808,[A screen showing the current hard disks and partition layouts is displayed],"Verifying that 'RealDictRow' contains ('id', 159, 'test_ id', 160, 'header_text', '') after selecting 'Something Else'",Strongly Disagree
+59641,4055,"[Current CPU and memory utilization are displayed in a popup, Both readouts update in real time]",Verify that the corresponding data points on the graph highlight and display tooltips with relevant information.,Disagree
+19031,5044,"[A new window should appear called ""Split Track""]","Verify that the selected file is displayed with split track options after clicking the ""Split the select track"" button.",Agree
+13100,5711,[A window appears with a list of available Bluetooth devices.],"The verification result is ""Action completed successfully"".",Strongly Disagree
+8964,1575,"[mkdir iso, mount -t iso9660 -o loop image.iso iso]","""Successfully loop-back mounted ISO image.""",Neutral
+38647,4845,"[The ""Progress"" icon disappears, The sublist reloads and no longer shows VLC]","Sure, here's the verification for the action:
+ 
+ ""The application will be removed within 30 seconds.""",Strongly Disagree
+27263,63,[You should be requested to remove the CD / USB key],"The input dictionary remains unchanged after executing the action.
+ Raw text: ""The input dictionary remains unchanged after executing the action.""",Strongly Disagree
+57277,1686,"[Check that apt update works, Run any command that is not installed, check that command-not-found recommends things to install, I.e. hello, Install a package and check that it works, i.e. hello]",Verify that the SiFive Hifive Unmatched board boots successfully and the riscv64+unmatched image runs as expected.,Strongly Disagree
+38888,5086,[A new window appears indicating the creation process],"Sure, here's the verification:
+ 
+ The new name should be ""brasero.iso"".",Strongly Disagree
+37897,4095,[Buttons return to default positions],All buttons are returned to their default positions after the action.,Neutral
+11568,4179,[The two 'Command' fields become active and are pre-populated with an 'xfburn' command],"""The 'Burn a CD or DVD when a blank disc is inserted' option is disabled.""",Strongly Disagree
+45397,4997,[PCManFM shows contents of Desktop directory.],"Verifying ""Click on 'in left hand panel' action"" against the given precondition by checking if the 'header_text' displays ""This test will check the 'open in terminal' functionality.""",Strongly Disagree
+14894,907,[Did the input method changed to Fcitx?],Verify that Gedit opens successfully and displays a language selector allowing switching between input methods using Ctrl + Space.,Strongly Disagree
+53327,6329,"[A window opens, asking for a file to select]","Verify that the ""Open Files"" dialog box is successfully opened after clicking on ""File"".",Agree
+17991,4004,"[The ""Log out username"" window appears]",Check if the laptop initiates shutdown sequence after pressing the power button.,Disagree
+52672,5674,[A slideshow presentation of the image files in the current directory starts],Ensure that the slideshow feature opens and displays images as expected.,Strongly Agree
+35636,1834,[The 'Check Erase Disk and install FAMILY' radio button is selected],"Sure, here's the verification:
+ 
+ ""The 'Check Erase Disk and install FAMILY' radio button is checked.""",Strongly Agree
+18014,4027,[Range can be set from 1% to 20%],"Verify that the value displayed in the ""Critical battery power level:"" spin box has changed to a new predetermined threshold level.",Neutral
+33383,6183,[Did it open the download page of the selected song or album in browser? Can you download or listen the song or album?],"The tested application loads the ""Dash Music Scope"" page containing the searched song or album after a successful double-click on one of the search results. 
+ 
+ (Note: This assumes that the precondition represents a successful initialization of the application under test and that the action of clicking on a search result leads to the expected outcome.)",Strongly Disagree
+37374,3572,[The drop-down list box should now be enabled and clickable],"Sure, here is the verification for the action:
+ 
+ ""The application opens a copy of a screenshot with another application when selected from the 'Open with:' option.""",Strongly Disagree
+20667,76,[You should be asked if you wish to encrypt your home directory],"The system should display an empty input field for the password, allowing the user to enter and confirm it before pressing Enter. The system accepts the entered password and moves on to the next step.",Strongly Disagree
+18675,4688,[Progress bar appears in Status column],Verify that a playback control appears allowing episode selection upon double-clicking.,Strongly Disagree
+58078,2490,[No USB mice are detected],Verify that the output of the 'lsusb' command includes a line containing 'ID hmu-001',Strongly Disagree
+50873,3875,[The icons on the screen change to the newly-selected icon theme.],The selected icon theme should be highlighted or visually indicated as being selected.,Disagree
+55958,363,[cat /etc/initramfs-tools/conf.d/mdadm],Verify that the line 'BOOT_DEGRADED=FALSE' exists in the /etc/initramfs-tools/conf.d/mdadm file.,Strongly Disagree
+39710,5908,[The image is opened in the application that you selected.],"Sure, here's the verification for the action you described:
+ 
+ > After clicking on the ""Edit this image"" toolbar icon, the user should be able to choose an application to open the image with.",Neutral
+52348,5350,[Favorite Channels (Auto-Join List) window opens],The '...' button should open a dialog box to select favorite channels.,Agree
+38889,5087,"[Is the main ""Audio Disc Project"" interface shown?]",The element with ID '705' is selected when Brasero finishes.,Strongly Disagree
+21379,788,[The new user's desktop is presented],Verify that the user is logged in with the correct id (70) and can access the corresponding page or feature.,Strongly Disagree
+25493,4902,"[A message containing ""ping"" is shown at the top of the timeline]","The ""ping"" message appears at the top of the timeline.",Strongly Agree
+56198,604,[A web page is loaded which shows 0 as the total number of nodes],Verify that the login is successful and the user is logged in to the MAAS server.,Strongly Disagree
+19389,5402,[Pause button appears on the right],"""Verify whether a mine is generated upon clicking a tile or not.""",Strongly Disagree
+47909,911,[Did the input method changed to Fcitx? Is the Chinese words input OK in Dash?],Verify that the input method is successfully switched from English to Fcitx after using Ctrl + Space in Dash.,Agree
+39802,6000,"[A window appears, showing the summary]","The verification for clicking on the ""Apply"" button would be: The ""Apply"" button is clicked on the UI.",Strongly Disagree
+10682,3293,[Application indicator menu appears],"The verification ""Verifies that the header text changes to 'Test-case panel/appindicator'"" is present.",Strongly Disagree
+14728,741,[A screen showing the current hard disks and partition layouts is displayed],Verify that no valid data is selected after performing 'Select Something Else' action.,Strongly Disagree
+29034,1834,[The 'Check Erase Disk and install FAMILY' radio button is selected],Verify the current state of the 'Check Erase Disk and install FAMILY' radio button after noting its initial position in the given precondition.,Neutral
+25560,4969,[PCManFM shows categories of applications.],Verify that clicking on the navigation menu has brought up the applications list.,Neutral
+15078,1091,"[APT will update, If asked to install files, type , New version files install]",Verify that all packages are updated without errors.,Agree
+17778,3791,"[Definitions for that word appear in the window, You will probably see returns from more than one dictionary. The number of definitions found will be shown on the status bar at the bottom of the window]","Verify that after pressing Enter, the search results include entries from the Dictionary Server.",Neutral
+61824,6238,[Screen locks and machine suspends],Verify that the 'id' of the RealDictRow is 911.,Strongly Disagree
+20824,233,[The track should stop playing and then start again from the same location in the song],The track plays after being paused and then paused again.,Agree
+18955,4968,[Dialogue closes],"""Verify that the dialogue box disappears confirming successful completion of the action.""",Agree
+61198,5612,[Rename dialogue window opens],"Verify that the ""Rename"" dialog box is displayed with the filename of the selected image in the ""New name:"" field.",Agree
+45493,5093,[A new window must appears asking for a name for the iso file],"""Verifify that 'RealDictRow' contains no entry for 'CD/DVD writer'""",Disagree
+35013,1211,[The system boots properly and loads to the live session desktop],The verification for booting up the image is that the image is loaded successfully.,Neutral
+36374,2572,[A test page prints to the printer from the server computer],"The ""Print Test Page"" button is clicked on the specified page.",Strongly Disagree
+19588,5601,[Selected file(s)/folder(s) are imported and displayed in the browser view in gThumb window main area],The imported files/folders are listed correctly under gThumb's File menu options as expected.,Neutral
+36666,2864,[QjackCtl GUI opens and the audio-server is already running.],Qsynth opens properly from the AUDIO section of the FAMILY menu when the precondition is met.,Disagree
+26760,6169,"[Click the ""Weather forecast"" menu, did the app show 6 days weather forecast.]",Verify that the weather forecast for the next six days is displayed on the screen.,Strongly Agree
+8407,1018,[The Ubuntu Studio installation options screen is displayed],"The verification is ""assert 'Continue' button clicked"" to verify the continue button has been clicked.",Strongly Disagree
+36498,2696,[Inkscape opens properly form FAMILY menu],"The verification for opening Inkscape is: ""Inkscape opens properly from the graphics design sub menu"".",Agree
+21310,719,[The timezone and city displayed match your timezone and a city from your area],The timezone and city from the 'Where are you?' screen match my system's timezone and selected location.,Strongly Agree
+22775,2184,"[sudo mysql, You should then be presented with a mysql prompt mysql>where you can enter some mysql commands:show databases; connect mysql; select host,user from user;, that will produce an output like: +--------------------+ | Database | +--------------------+ | information_schema | | mysql | | performance_schema | | sys | +--------------------+ 4 rows in set (0.00 sec) Reading table information for completion of table and column names You can turn off this feature to get a quicker startup with -A Connection id: 7 Current database: mysql +-----------+------------------+ | host | user | +-----------+------------------+ | localhost | debian-sys-maint | | localhost | mysql.session | | localhost | mysql.sys | | localhost | root | +-----------+------------------+ 4 rows in set (0.00 sec) ]",Verify that MySQL server is running and accepting connections by executing SQL queries.,Strongly Agree
+48521,1523,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]",Check that a valid IP address is recorded on the wlan0 interface and ping google.com successfully.,Agree
+33913,111,[This should then reboot the machine],"Sure, here's the verification for the action you described:
+ 
+ > The CD / USB key has been removed and pressed Enter.",Strongly Disagree
+30019,2819,[A menu opens],The input button near the top of the mixer column for the Audio track has been clicked.,Strongly Disagree
+32018,4818,[Do all of these actions complete with no errors?],"Successfully opened new email in Thunderbird with ""Just Testing"" subject and two lines of text in the body, containing link to test mailto: functionality. 
+ 
+ (Note: The provided precondition indicates a test case related to checking Thunderbird's ability to send messages using mailto: links found on web sites. In this specific step, we are asked to simulate clicking a certain hereso that it opens a new email with predefined recipient, subject, and body containing link functionality test.)",Disagree
+43294,2894,[The Ardour application opens],"Verifying that Ardour connects to JACK via ""Audio System"" dropdown, clicks ""Connect to Jack,"" and confirms connection by seeing ""Connected to Jack"" message.",Strongly Disagree
+23285,2694,"[Open the krita application from GRAPHIC DESIGN subsection in Main Menu., Krita opens properly.]",Verify that the Krita application window appears after selecting it from the menu.,Agree
+61874,6288,[New applications appear in Favourites menu],Verify the 'Favourites' menu now contains the selected applications.,Strongly Agree
+35475,1673,"[Ethernet cable for networking, MicroUSB cable for serial console]","Sure, here is the verification for the given action:
+ 
+ ""The network and serial console are connected to the board.""",Neutral
+58835,3248,[The launcher should have a white arrow on the left of the launcher icon on the primary screen],Verify the application's title bar is visible on the target screen.,Strongly Disagree
+25997,5406,"[The timer resumes and the tiles are fully visible again, The Play button changes to a Pause button]","Verify that the ""Resume"" button is now active and can be clicked.",Strongly Disagree
+39191,5388,"[40 mines appear, one of which has exploded]","The verification for the action ""Play the game till you hit a mine"" would be: The game is playing and the player has not yet hit a mine.",Strongly Disagree
+53575,6577,[check application appears on desktop],The screen should successfully unlock after performing the action.,Strongly Disagree
+45985,5585,[gThumb opens],"Verify: ""Expected output: gthumb opens in the terminal with 'gThumb at' message upon typing 'gthumbat' and pressing Enter""",Strongly Disagree
+59868,4282,[Archive contents is displayed correctly in file-roller],Verify that the archive opened in File Roller displays the correct files and folders.,Strongly Agree
+11236,3847,[Arandr is installed without error],"The test step is: ""sudo apt-get install arandr; sleep 1; if [ -f /usr/bin/arandr ]; then echo ""ok""; else echo failed; fi;"" with a verification of ""Verify that arandr is installed successfully"".",Neutral
+57337,1746,"[The ""eth0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]",Verify that a valid IP address is assigned to the eth0 interface and that the device can successfully ping google.com.,Strongly Agree
+18414,4427,[Is Table1 properly created? Did the designer work without error?],Verify that the window has been closed and is no longer interactable.,Strongly Disagree
+48982,1984,[The 'Who are you?' screen appears],Verify that the selected timezone is saved correctly after clicking on the continue button.,Strongly Disagree
+50187,3189,[The quicklist for the application should be displayed],Verify that the focus moves to the next element after pressing the right-arrow key.,Strongly Disagree
+56453,861,"[Are the lunar date, the compatibility and incompatibility of the lunar calendar and the schedule that day showed on the right of the application window correct?]",Verify that the Chinese Calendar application window displays the corresponding date information.,Agree
+24563,3972,[The MIME Type Editor dialog opens],The MIME Type Editor window is opened after clicking on it in the Settings dialog.,Agree
+24722,4131,[Window content not visible in resize border],Verify that the size of the application window has changed after performing the 'Resize window' action.,Neutral
+48237,1239,[Selected drive is displayed on the chart],Verify that the drive selected on the Select drive list corresponds to the drive on the chart.,Agree
+43183,2783,[Blender stops],"Press ""Pause"" in QJackCtl verifies QJackCtl pause state.",Strongly Disagree
+29179,1979,[The 'Erase disk and install FAMILY' radio button should be checked],"Verify the state of the 'Erase disk and install FAMILY' radio button by checking if it is checked or not. (Raw Text: '<button type=""checkbox"" name=""family"">')</button>",Neutral
+50600,3602,[The windows stretch to the screen edge overlapping the panel],"Verify that the 'Don't reserve space on borders' option under the ""General"" section is successfully ticked.",Strongly Disagree
+56302,709,"[The 'Keyboard Layout' screen appears, The proposed keyboard corresponds with your keyboard]","Verify that the ""Install FAMILY"" icon is not clickable.",Strongly Disagree
+18722,4735,[Video should begin playing],The screen displays Totem starting to play the specified video.,Neutral
+12081,4692,[rhythmbox should launch],"The action should be verified as "" Rhythmbox dashboard opens successfully with a launched application"".",Agree
+34933,1131,[HTTP Proxy screen displays],"Sure, here's the verification for the action you specified:
+ 
+ The selected mirror is not specified in the context.",Strongly Disagree
+18773,4786,[The interface shows a license?],"Verify that the ""License"" button is displayed on the screen after pressing it.",Disagree
+13531,6142,[Did Chinese Calendar autostart?],"""Asserted that the indicator icon of Chinese Calendar is not autostart"".",Strongly Disagree
+32509,5309,[The Terminal window maximizes into fullscreen],"Step response: The selected fullscreen option is applied successfully, as expected, resulting in the terminal maximizing to fullscreen. 
+ 
+  Expected the terminal to maximize into fullscreen after selecting the Fullscreen option.",Agree
+27784,584,[A web page is loaded which asks for login credentials],"The admin logout is successfully completed as per the mentioned action. 
+ 
+ In simple words for a 5-year-old: This test checks if the admin logs out from MAAS when their name is clicked and called ""logout"".",Strongly Disagree
+45380,4980,[Folder testno longer appears in the PCManFM window.],Verify the presence of a button with the text 'Click' on the page.,Strongly Disagree
+57009,1418,[The machine is rebooted],"Verify that the ""Disc Removed"" dialog box is displayed.",Strongly Disagree
+51779,4781,[The main Totem window is displayed],"Verify that the ""Totem Help"" window is closed.",Strongly Disagree
+38759,4957,[Did the scan delete correctly?],"Sure, here's the verification for the given action:
+ 
+ >The scan was deleted successfully.",Agree
+15821,1834,[The 'Check Erase Disk and install FAMILY' radio button is selected],`Verify that the 'Check Erase Disk and install FAMILY' radio button is not selected.`,Strongly Disagree
+8795,1406,['Erase disk and use ZFS'],"""disk check failed - ZFS not erased""`.",Strongly Disagree
+12944,5555,[Selected files should be renamed accordingly],"The verification would be ""Expected result: renamed files listed"".",Strongly Agree
+57205,1614,"[Alternatively zFCP/SCSI disk storage can be selected - if available., Overall it's recommended that DASD, as well as zFCP/SCSI disk storage, is tested. Hence if a second z/VM installation is done, it's recommended to use zFCP/SCSI instead of DASD disk storage that time. Usually two zfcp-host devices need to be selected and enabled. Then all available (usually four) paths must be automatically detected (multipath).]",Verify that the selected DASD device is displayed in the 'Zdev setup' screen.,Strongly Disagree
+36458,2656,"[A new window appears called ""DTFM Tone Generator"", Can you change the values? (DTFM sequence, Amplitude, Tone/Silence ratio), Click on ""OK"", Can you see the difference in the audio chart?]","Sure, here's the verification for the action ""Click on ""DTFM Tones..."""":
+ 
+ ""The 'DTFM Tones...' button should be clicked on the page.""",Strongly Disagree
+20269,6282,[Chosen application appears in Favourites],Verify that the 'Favourites' option appears as selectable in the application's main navigation or sidebar.,Disagree
+46683,6283,[Chosen application is removed from favourites],"In Favourites, right-click and verify the presence of an ""Add to Favourites"" menu item with id 923.",Strongly Disagree
+30933,3733,"[Keyboard Setting dialogue opens at Behaviour, Restore num lock state is unticked, Num lock is off]",Check if the keyboard is now visible in the Settings menu after opening from within the application. (Raw text: Verification of opening keyboard from settings),Neutral
+62064,6478,[The drawing will be saved],"Verify that the file ""Untitled.ora"" is saved in the current directory.",Agree
+33641,6441,"[Vym opens the ""Export"" window. Give a name to the file, extension as "".svg"" and press ""save"" button. The mind map is exported as a SVG image now]","The exported SVG mind map file contains the text 'This test will check that vym can be used to export a mind map file' as specified in the precondition. 
+ 
+ (Note: Since there is no return or output required for this simple verification, it's provided as a raw text comment.)",Neutral
+24343,3752,[xfce4-display-settings --minimal opens],"Verify that the ""Application Finder"" window opens after pressing ""Super+p"".",Strongly Disagree
+7534,145,"[The system reboot, the login prompt appear and you can login into it]",Assert.assertTrue(rebootedSystem.getBootStatus());,Strongly Disagree
+17683,3696,"[A menu opens with the options ""Groups"", ""Properties"", ""About"" and ""Remove"", Check that the menu options work as expected]","The notes icon is right-clicked, expecting to see a context menu appear.",Agree
+10619,3230,[check that Alt - Tab is shown on the newly monitor where your cursor is],"""Cursor is now on the other monitor and alt-tab switcher is displayed"".",Strongly Agree
+13456,6067,"[A new window named ""Preferences"" appears]","The verification is ""assert 'Preferences' in top_bar().get_edit_menu().get_preferences()"".",Strongly Disagree
+47380,382,[cat /etc/initramfs-tools/conf.d/mdadm],"Verify that the BOOT_DEGRADED setting is ""TRUE"" in /etc/initramfs-tools/conf.d/mdadm.",Strongly Disagree
+52237,5239,[There are no issues with the content],Verify that the main topics page is displayed correctly with all the expected links.,Agree
+24871,4280,[Selected files and/or folders are displayed in the archive contents list],The selected files and folders have been added to the archive list.,Agree
+61477,5891,[The thumbnail bar position changes accordingly.],Verify that the Thumbnail Bar Position changes accordingly.,Strongly Disagree
+46757,6357,[New launcher appears in Accessories menu],"""Verify menu displays 'Accessories' upon opening.""",Strongly Disagree
+58238,2650,"[The desk should be clean, right?]","Verify that the ""Remove Tracks"" button is no longer visible.",Strongly Disagree
+59202,3616,[The 'File:' button appears],Verify that the 'Background Image' option is selected in the Panel settings.,Strongly Disagree
+26988,6397,"[An empty score appears with your chosen title, Key Signature & Time Signature]","Verify that the ""Finish"" button is clickable and after clicking it, the system creates a new score with entered notes and opens the saved file again.",Strongly Disagree
+11220,3831,[The default web browser opens to Dictionary.com showing the definition of the word you entered in the search field],"The verification result is ""Verification PASSED: Search terms match with id 484 and header_text 'These tests will check the customization of Preferences'"".",Strongly Disagree
+22080,1489,[System reboots successfully to a login prompt ],Verify that the Raspberry Pi 4 8GB has successfully rebooted and is now at the login screen.,Agree
+50845,3847,[Arandr is installed without error],Check if the software 'arandr' is successfully installed by verifying its presence in the system.,Strongly Agree
+47265,267,['Encrypt the new FAMILY Installation for security' and 'Use LVM with the new FAMILY Installation' is checked],Verify that both 'Use LVM with the new FAMILY Installation' and 'Encrypt the new FAMILY Installation for security' options are successfully selected.,Neutral
+14701,714,[By checking the 'Display password' checkbox the entered password can be seen and that by unchecking it the password is hidden behind asterisks],Verify that the 'Display password' checkbox state is as expected (checked or unchecked) based on precondition.,Neutral
+9385,1994,[The boot screen is displayed in the selected language],"Verification is: ""The selected language's locale files are installed correctly.""",Neutral
+31888,4688,[Progress bar appears in Status column],"The test successfully checks that Rhythmbox can play podcast episodes, as the application reacts to the double-clicked episode with proper functionality. 
+ 
+ In this case, the precondition provided indicates that a test named 'rhythmbox/rhy-002' exists and will verify if Rhythmbox can play podcast episodes when an episode is double-clicked. Since no specific reaction other than the double click is mentioned for the given action, we assume that the application reacts to this action by playing the selected podcast episode. This outcome leads us to conclude that the test function successfully checks the functionality of Rhythmbox in handling podcast episodes.",Strongly Disagree
+25657,5066,"[Changes are displayed in the ""Slices Preview"" area]",Verify that the audio playback displays no sound output when reaching a silence in the track.,Strongly Disagree
+21189,598,[A web page is loaded which shows input fields with information about 'ubuadm'],Verify that the 'Edit user' button is clickable and that the page loads the editing form for the selected user.,Strongly Disagree
+53379,6381,"[The default ""Reunion"" piece starts playing through your speakers]","Verify that the ""Playback"" started and the default score ""Reunion"" plays as expected.",Strongly Agree
+22021,1430,"[The 'Keyboard Layout' screen appears, The proposed keyboard corresponds with your keyboard]","Verify that the ""Install FAMILY"" button is clickable and that the installation process starts after clicking it.",Strongly Disagree
+45071,4671,[Is the shortcut read to you?],"Verifying the menu item with shortcut 'ctrl+s' contains expected text 'header_text' from RealDictRow[(id, 640), (test_ id, 641)]",Strongly Disagree
+49769,2771,[Blender opens properly.],Blender application opens successfully from GRAPHIC DESIGN subsection in Main Menu.,Neutral
+41363,963,[Desktop shows previously started application],"""Verify login success with normal user, Unlock screen.""",Disagree
+44292,3892,[The Globaltime Preferences toolbar changes to both icons and text with the text below the icon.],Verifying the Settings tab displays 'Toolbar Style' as 'Text under icons' after changing.,Disagree
+45595,5195,"[The ""Lock"" button should say ""Unlock"", and the ""Send error reports to Canonical"" checkbox should be disabled.]","Click ""Unlock"", enter password, click ""Lock"". Verify: Password input and lock action succeed.",Neutral
+48957,1959,[The 'Erase disk and install FAMILY' radio button is selected],The 'Erase disk and install FAMILY' radio button should be unchecked by default.,Strongly Disagree
+43151,2751,[The track begins to play and the notes are heard through the speaker],Verifying click on the Play icon ensures no other tracks are displayed before entering MIDI data.,Strongly Disagree
+46305,5905,"[The image opens and is displayed in ristretto's main window. In addition, if other images exist in the folder that the opened image was in, their thumbnails show up in the thumbnail bar to the left of the image.]","Verifying that Ristretto is loaded, clicked ""Open an image"" toolbar, and opened an image.",Disagree
+14048,61,[Wait for a while - The install may seem like it has locked at a percentage but is actually working in the background. You can check and see if it is working by switching to tty4 (alt + f4).],Verify that the user input is either valid HTTP proxy information or an empty string when pressing Enter.,Strongly Disagree
+59087,3500,[The Ubuntu One payment confirmation will appear in the Dash. It will show your Ubuntu One email address and your preferred payment method.],Verify that the user is presented with an error message indicating that the password is incorrect.,Strongly Disagree
+47670,672,[The packages are downloaded and installed],"The selected item is successfully installed after pressing ""Enter"".",Agree
+49975,2977,[The dash should close],Press escape and verify that the action closes the current window.,Agree
+13196,5807,[Tick either appears in box or disappears - depending on what was changed],"The verification is ""assert 'User Settings have been modified successfully'""!",Strongly Disagree
+50512,3514,[The Music lens will appear.],The Music lens icon should open and display relevant music-related search results.,Strongly Disagree
+32394,5194,"[The ""Lock"" button should say ""Unlock"", and the ""Send error reports to Canonical"" checkbox should be disabled.]","After waiting for 20 minutes, verify that the test case's description remains the same: ""Test-case name: privacy/privacy-007 This test will check the functionality of the \""Diagnostics\"" tab.""",Strongly Disagree
+34745,943,[The boot animation should be customized by the UbuntuKylin Team ],The boot animation is displayed during the UbuntuKylin System startup process.,Strongly Disagree
+12819,5430,[Text editor closes],"The verification is ""Window closed, X not visible."";",Disagree
+15416,1429,[The system boots properly and loads the installer displaying the Welcome dialog with language selection and 'Try FAMILY' and 'Install FAMILY' buttons],Verify that the system successfully boots from the specified RST-enabled UEFI image without network connectivity.,Strongly Disagree
+48720,1722,[Audio can be heard through the device],Verify that the MP3 file plays successfully through the HDMI0 port after adjusting the volume using alsamixer.,Disagree
+15307,1320,[You should be prompted for a user name],"Verify that user input is captured under a field labeled as ""Name"" or similar.",Disagree
+41424,1024,[Full drive space is allocated for installation],"""Verify that the full drive space of 102, 103, and empty header_text is correctly allocated as expected""",Disagree
+35297,1495,[Audio can be heard through the device],"The verification for the given action is: ""Mixer's volume is not set too low"".",Disagree
+30690,3490,"[On the Albums section, there will appear albums by Willie Nelson.]","The search result contains a music artist, specifically Willie Nelson or any other chosen artist.",Agree
+36715,2913,[The Routing Grid shows for the Drum input],"The ""Input to Drum"" button is clicked on the Drum track, and the ""Routing Grid"" option is chosen from the popup menu.",Disagree
+32521,5321,[Menu appears],Check if the search box displays the gear icon after clicking it. (Raw text: 'The gear icon is displayed to the right of the search box.'),Strongly Disagree
+32314,5114,[Changes were applied successfully?],"Check if the application remains open after performing the ""Close"" action.
+ 
+  (Raw Text: VerifyAppStateAfterCloseAction)",Strongly Disagree
+32658,5458,[New file copy of test appears in window],"Verify that the current row's header text is 'These Tests will check items in the Edit menu', which matches the input string. 
+ 
+ Explanation: By analyzing the given precondition, we can infer that this specific test case requires a verification of the header text present in the manual test. The task asks to generate a single-sentence response with no other texts, fulfilling the requirement of focusing only on the specified verification aspect.",Strongly Disagree
+24064,3473,"[A notification will appear: Purchase Complete., Notification will start to appear when each song of the album is being synchronized from your Ubuntu One account to this machine.]",Verify that the system has completed the authorization process before proceeding with the next step.,Disagree
+36372,2570,[An icon for the shared printer icon should automatically appear],The 'Printers - localhost' dialog is displayed on the client computer during the test.,Agree
+35740,1938,[The 'Erase disk and install FAMILY' radio button is selected],"The verification for the action ""Note the state of the 'Erase disk and install FAMILY' radio button"" is that the radio button is disabled.",Strongly Disagree
+60446,4860,[VLC media player launches],Verify that VLC media player is launched and playing.,Strongly Agree
+29647,2447,[There is a file called demo2.txt ],Check if the 'home' directory exists in the file manager by navigating to it. (Raw text: 'Check home directory in file manager'),Disagree
+17308,3321,[Window is maximized],Verify that the window is maximized.,Strongly Agree
+52912,5914,[The image zooms out.],"Verify that the page zooms out after clicking on the ""Zoom out"" toolbar icon.",Strongly Agree
+43227,2827,[The recorded sound plays through the monitors/speakers],"Verifying the click on ""Go to start of session"" button and play icon successfully initiates a new audio recording session.",Disagree
+44033,3633,[Xfwm4 workspace settings opens],Verifying that 'Workspaces' tab displays 'This will test the xfwm4 workspace settings' after opening Settings.,Strongly Disagree
+11003,3614,[The selected color is applied to the panel],The selected color is correctly applied to the XFCE4 panel.,Agree
+56525,934,[Provide password if requested. Pausing at this point should not cause an error],Verify that a bootable USB drive is created and is ready to be used.,Strongly Disagree
+34024,222,"[the search entry should show ""search music"" and you should have two categories, filled with the indexed music tracksalbums]","Sure, here's the verification for the action ""Click on the music lens icon"":
+ 
+  Element with ID 'music-lens' is clicked.",Disagree
+45092,4692,[rhythmbox should launch],"Verify: ""The Dash opened,超级键 launched Rhythmbox, and 'rhythmbox' entered, verifying playback from MTP-players""",Strongly Disagree
+26021,5430,[Text editor closes],The text editor window has closed.,Strongly Agree
+7402,13,[Are you able to connect?],"The verification should be ""Connection successful on all available network connections""!",Disagree
+42338,1938,[The 'Erase disk and install FAMILY' radio button is selected],Verify the state of the 'Erase disk and install FAMILY' radio button matches the expected value.,Agree
+21813,1222,[The timezone and city displayed match your timezone and the main city from your area],Verify that the noted timezone and the city match the system's current timezone and connected city.,Agree
+51093,4095,[Buttons return to default positions],Buttons returned to default positions successfully.,Strongly Agree
+36993,3191,[The application should close and the launcher should loose the focus],"Sure, here's the verification for the action ""Press enter"":
+ 
+ ""Verify that the element with ID '361' is selected after pressing Enter.""",Strongly Disagree
+24076,3485,[The browser will show the page for the album you clicked on the Music Store of the Ubuntu One website.],"The user is not redirected to a login page after clicking the ""Log in"" button.",Strongly Disagree
+15854,1867,[An X will appear by Free software only],Verify that the cursor moves to the 'Free Software' section under the specified test_id.,Disagree
+58459,2872,"[""Virtual MIDI keyboard"" opens.]","Verify that the ""Virtual MIDI keyboard"" program is running and its window is visible.",Disagree
+26536,5945,[The selected session starts],The system should display the user interface of the logged-in account after successful authentication.,Agree
+36511,2709,[The imported file now appears on the track pane with the waveform visible],"Sure, here's the verification for the action:
+ 
+ ""The element with id 'Track Pane' is found on the page.""",Disagree
+10811,3422,[The dash will show the Categories filter],"The test step is ""Mouse.click('search_arrow_next_to_search_field')"" with verification ""assert exists css_property==header_"".",Strongly Disagree
+20099,6112,[Volume of audio decreases and increases in response to volume change],The volume level slider moves smoothly to demonstrate responsiveness when hovering over each channel's Master volume control with a mouse wheel action.,Strongly Disagree
+26977,6386,"[The ""Create New Score"" window opens]","Verify that a new score creation window appears after clicking on the ""Create New Score"" icon.",Strongly Agree
+24715,4124,[Tick appears in dialogue],Verify that the cursor is outside the Wrap workspace boundary before selecting it.,Strongly Disagree
+28026,826,[The 'Welcome to FAMILY ' slide is displayed],"The page navigation bar remains visible after clicking on the continue button, as there are no conflicting styles or expressions affecting the layout. (CSS selector: #page_navigation)",Strongly Disagree
+43822,3422,[The dash will show the Categories filter],"Verifying that the header_text of the RealDictRow, containing (id=432, test__id=433, header_text='Test-case reference-dictionary'), displays when clicking the arrow next to the search field.",Strongly Disagree
+28653,1465,[The 'Enroll MOK' screen is displayed],"The Enroll MOK command was successfully added to the list of selected commands. 
+ 
+ (Note: In real-life scenarios, this would likely be accompanied by a confirmation message or an output from the system indicating the completion of the enrollment process for the MOK.)",Disagree
+26819,6228,[The menu opens],Verify that the menu appears after clicking the menu button.,Agree
+48542,1544,[Audio can be heard through the device],Verify that the volume is not set too low using alsamixer before retrying playback.,Disagree
+19938,5951,[Greeter screen shows],Verify logout redirects to the homepage with appropriate language selection displayed.,Strongly Disagree
+41923,1523,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verifying that the WiFi configuration is correctly set with SSID: my-ssid-here, password: my-password-here, IP address assigned to wlan0 and successful pings to google.com.",Disagree
+28910,1709,"[Reported ""Mem"" under ""total"" is consistent with a Raspberry Pi 400. It should be in the region of 3.6-3.8GB. ]","Verify if 'free -h' output contains lines with ""total disk space"" and ""available disk space."" Return result in raw text.
+ 
+ Example:
+ ```
+ du -sh /
+ ```",Strongly Disagree
+14804,817,[The 'Installation type' screen is displayed],Verify that the Continue button is enabled after clicking.,Strongly Disagree
+59442,3856,"[The ""Appearance"" module is loaded into the ""Settings"" window replacing the ""Settings"".]","Verify that the ""Appearance Setting Dialog"" is visible.",Disagree
+58851,3264,"[""File"" menu disappears, ""Edit"" menu appears]",Verify that the focus moves to the next field in the form.,Strongly Disagree
+37792,3990,[The file opens in LibreOffice Writer],"Sure, here's the verification:
+ 
+ > The .log file is opened successfully with LibreOffice Writer using right-click > Open with.",Agree
+12270,4881,[A new list with reviews in different language should appear],"The verification should be ""Assert that the Reviews dropdown is now in 'Any Language'"",.",Disagree
+15318,1331,[This should then reboot the machine],"""The system does not prompt for input as this action is not applicable to removing hardware devices.""",Strongly Disagree
+30964,3764,[Shortcut changes to Super+9],The desired key combination 'Super+9' has been pressed as part of the test action. (Raw text: Desired key combo : Super+9),Disagree
+36185,2383,[dpkg -l ubuntu-virt-server],"Sure, here's the verification for the action:
+ 
+ > ubuntu-virt-server package is installed.",Strongly Agree
+30799,3599,[The panel orientation is set to the selected orientation],"Check if the selected panel orientation is correctly saved and accessible for configuration preferences. 
+ 
+ Action: Select one of the desired panel orientations (e.g., vertical, horizontal) and confirm checkmark for the saved option.",Disagree
+45342,4942,"[Did the file save correctly?, Did the file save as pdf?]","The test step verifies saving the file as ""Scanned Document.pdf"" after changing its extension from ""Scanned Document.jpg.""",Agree
+14692,705,[The system boots properly and loads into FAMILY],Verify that the system successfully reboots after allowing the machine to reboot.,Disagree
+46688,6288,[New applications appear in Favourites menu],"""Verifying Favourites menu items are sorted alphabetically after selecting and adding applications with IDs 924 and 925.""",Strongly Disagree
+59700,4114,[Window snaps to screen border],Verify that the window snaps to the screen border.,Strongly Agree
+60380,4794,[Nautilus should launch showing the ubuntu one folder],Verify that a new window/tab opens with the path '~/Ubuntu One' displayed in the address bar.,Disagree
+44595,4195,[Tick appears in box],Verifying focus on Window Manager Tweaks and selecting 'Cycle through windows on all workspaces' step by verifying expected header_text 'This test will check options in Cycling tab' is present.,Strongly Disagree
+12366,4977,[File moveme.txtmoves to the folder test. Double click folder testto confirm the file moveme.txtis there.],"The verification step is ""Dragged file successfully moved to the specified folder"".",Strongly Agree
+38908,5106,"[You should see all discs availables to burn, If you don't have a disc, the ""write to"" section will be gray out]","Verify that the ""Select a disc to write to"" button is clicked.",Disagree
+59374,3788,[Warning dialogue appears],"Verify that the ""Use System Defaults"" checkbox is toggled.",Strongly Disagree
+17620,3633,[Xfwm4 workspace settings opens],"Verify that the ""xfwm4"" workspace settings are accessible within the Workspaces section of the Opened Settings window.",Agree
+25810,5219,[The torrent starts correctly],The torrent starts downloading.,Disagree
+50276,3278,"[Panel does not show window buttons, Panel shows the window title]",Window is maximized successfully.,Neutral
+42194,1794,[The timezone and city displayed match your timezone and the main city from your area],"""Verify that the selected timezone matches the actual connected network timezone and matches the city in the text box""",Agree
+62060,6474,[kolourpaint opens and showing one window by default],Verify that KolourPaint window is open and visible.,Agree
+16994,3007,[The dash should open in the music lens],Verify that pressing super + M results in a successful shortcut command execution with no error messages displayed.,Strongly Disagree
+43237,2837,[The cursor moves over the empty pattern and repeats continuously],"Click on the ""Play"" icon on the toolbar, expect header_text to be 'This test verifies Hydrogen's drum kit selection and beat creation.'",Strongly Disagree
+18565,4578,"[NetworkManager's icon swirls and then changes to ""unencrypted wireless connection up"" icon (4 half-circles icon by default)]",Verify that the Network Manager applet displays an available unencrypted Wi-Fi network.,Disagree
+27768,568,[Did you successfully login into the MAAS server with the admin user created?],Verify that an admin can log back in using the username 'ubuntuadm' and password previously created by checking the MAAS server's admin user list.,Disagree
+9220,1831,[The 'Preparing to install FAMILY' screen is displayed],"The verification result is ""Action successful, please wait for the next step""!",Disagree
+61880,6294,[The Display power management settings screen appears],"Verify the ""Display"" tab is selected.",Disagree
+29502,2302,"[service cups status, should state that the cupsd is running.]",Verify that cups is running by checking the system logs for active server instances and confirming the connection to the cupsd service.,Agree
+36558,2756,[The MIDI Input port is highlighted],The MIDI input port is highlighted on Qtractor.,Agree
+46502,6102,[Audio mixer opens],"Verify: ""期待看到'XFCE4 Mixer'打开，并在终端窗口显示 'xfce4-mixer'，按 Enter 键后程序自动关闭""",Strongly Disagree
+19479,5492,[Book1 closes leaving Book2 open],Close window of Book1 successfully after pressing Ctrl+W.,Disagree
+27265,65,[You should be able to log in and the desktop should be displayed],"Verify if the current user has access rights to install applications on the desktop by checking the preloaded permissions list. Returning the result as a single sentence string: ""Current user has no permission to install applications on the desktop.""",Disagree
+17163,3176,[No launcher icon should be focused],Verify that pressing alt + F1 again does not trigger any additional keyboard shortcuts or commands.,Strongly Disagree
+49692,2694,"[Open the krita application from GRAPHIC DESIGN subsection in Main Menu., Krita opens properly.]",Verify that Krita opens successfully after selecting it from the menu.,Strongly Agree
+39519,5717,[A window appears showing a new Sudoku],"Sure, here's the verification you requested:
+ 
+ The precondition verifies that the current game is a Sudoku game with the specified test case ID and header text.",Disagree
+52920,5922,[The thumbnail bar is visible in fullscreen mode.],The thumbnail bar should not be hidden when viewing an image in fullscreen mode.,Agree
+50751,3753,[xfce4-display-settings --minimal opens],Verify that the XF86Display key press triggers the expected action on the application.,Neutral
+41970,1570,[cmpreturns 0 and outputs nothing indicating the files are identical ],"""Verify the copied file size is within the 500MB range by comparing /mnt/stick/rubbish with /dev/urandom using cmp.""",Strongly Disagree
+25460,4869,[The Ubuntu Software Center is launched],Verify that the Ubuntu Software Center window is displayed.,Agree
+57338,1747,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]",Verify that wlan0 interface has a valid IP address and ping to google.com is successful.,Agree
+17090,3103,[Firefox should be maximized and occupy the whole width of the screen],Verify that Firefox is running with a maximized window size.,Agree
+40667,267,['Encrypt the new FAMILY Installation for security' and 'Use LVM with the new FAMILY Installation' is checked],"""Verifying that 'Use LVM with the new FAMILY Installation' and 'Encrypt the new FAMILY Installation for security' steps are correctly performed""",Strongly Disagree
+46383,5983,[Calculator closes],"Verifying: ""RealDictRow navigate to 'Edit' -> 'Quit' menu option displays 'This test will check that Gnome Calculator' header_text""",Strongly Agree
+21353,761,[The screen updates showing your desired partitions and mount points],"Verify that the selected drive can be partitioned and the 'Add', 'Change', and 'Delete' buttons function correctly to modify the partition scheme.",Disagree
+25277,4686,[New Podcast Feed window appears],A new podcast feed window should open after completing the 'New Podcast Feed' action.,Agree
+25055,4464,"[The PowerPoint file should open correctly in LibreOffice., The layout, the display of characters, bullets and numbering should display correctly.]",Verify that the LibreOffice Impress application opens the specified Powerpoint file with all special characters displayed correctly.,Agree
+13552,6163,"[Did the input method changed into ""Google pinyin""?Is the Chinese words input OK? ]","The test step would be ""Click the 'Fcitx' icon in the float bar, select 'Google Pinyin' from the 'Input Method' dropdown and verify the selected input method is indeed 'Google Pinyin'.""",Agree
+15691,1714,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that 'wifi' is configured with SSID and password, DHCP enabled, IP address assigned to wlan0 interface, and successful ping to google.com.",Agree
+26005,5414,[Thunar opens at /home/USER],Verify that Thunar application is opened after selecting it from the menu.,Disagree
+28723,1523,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that the wlan0 interface has a valid IP address and can successfully ping google.com multiple times, then restore the original network configuration.",Disagree
+24447,3856,"[The ""Appearance"" module is loaded into the ""Settings"" window replacing the ""Settings"".]","Verify that clicking on the ""Appearance"" module in the Settings dialog displays the Appearance Setting Dialog.",Disagree
+9082,1693,[Verify that you're inside the WSL instance and running the right distribution. For example run: # lsb_release -a No LSB modules are available. Distributor ID: Ubuntu Description: Ubuntu 20.04.3 LTS Release: 20.04 Codename: focal ],"The command ""wsl -d Ubuntu20.04.3"" is successfully executed.",Disagree
+20915,324,"[RAID1 array for /, RAID1 array for swap, RAID1 array for /home (testing non-rootfs raid)]","Verify that the partitioning method is set to ""Manual"" upon completing the given steps.",Disagree
+59737,4151,"[Selected Application launches without error, Application Finder closes]",Verify that the selected application is launched and the Application Finder window is closed.,Agree
+13019,5630,[gThumb's sidebar shows or hides accordingly to the choice made],"The verification is ""Verify 'View ->Sidebar' checkbox is checked"".",Strongly Disagree
+38147,4345,[File manager launches],"Sure, here's the verification for the action ""Open File Manager"":
+ 
+ ""File manager is opened successfully.""",Strongly Agree
+12111,4722,[The dialog connects to the providers login page],"The verification would be ""Expected 'Login' button to be enabled"".",Strongly Disagree
+32663,5463,[Sidepane changes to show Tree view],"The sidepane tree view is displayed when 'View' tab is selected. 
+ 
+ (Note: To provide a more comprehensive test description, please consider adding an explanation before each test step for better understanding and context.)",Disagree
+8741,1352,[The screen shows your desired partitions.],"The step is ""Click 'Create', wait for Save## and then Click 'Edit'"" and verification is ""assert the 'header_text' == 'Partition Name'"".",Strongly Disagree
+33418,6218,[Mugshot closes],"When clicking the 'Cancel' button, the verification would be: The 'Cancel' button reaction does not close the Mugshot application properly.",Strongly Disagree
+48957,1959,[The 'Erase disk and install FAMILY' radio button is selected],The 'Erase disk and install FAMILY' radio button should be unchecked by default.,Strongly Disagree
+43151,2751,[The track begins to play and the notes are heard through the speaker],Verifying click on the Play icon ensures no other tracks are displayed before entering MIDI data.,Strongly Disagree
+46305,5905,"[The image opens and is displayed in ristretto's main window. In addition, if other images exist in the folder that the opened image was in, their thumbnails show up in the thumbnail bar to the left of the image.]","Verifying that Ristretto is loaded, clicked ""Open an image"" toolbar, and opened an image.",Disagree
+14048,61,[Wait for a while - The install may seem like it has locked at a percentage but is actually working in the background. You can check and see if it is working by switching to tty4 (alt + f4).],Verify that the user input is either valid HTTP proxy information or an empty string when pressing Enter.,Strongly Disagree
+59087,3500,[The Ubuntu One payment confirmation will appear in the Dash. It will show your Ubuntu One email address and your preferred payment method.],Verify that the user is presented with an error message indicating that the password is incorrect.,Strongly Disagree
+47670,672,[The packages are downloaded and installed],"The selected item is successfully installed after pressing ""Enter"".",Agree
+49975,2977,[The dash should close],Press escape and verify that the action closes the current window.,Agree
+13196,5807,[Tick either appears in box or disappears - depending on what was changed],"The verification is ""assert 'User Settings have been modified successfully'""!",Strongly Disagree
+50512,3514,[The Music lens will appear.],The Music lens icon should open and display relevant music-related search results.,Strongly Disagree
+32394,5194,"[The ""Lock"" button should say ""Unlock"", and the ""Send error reports to Canonical"" checkbox should be disabled.]","After waiting for 20 minutes, verify that the test case's description remains the same: ""Test-case name: privacy/privacy-007 This test will check the functionality of the \""Diagnostics\"" tab.""",Strongly Disagree
+34745,943,[The boot animation should be customized by the UbuntuKylin Team ],The boot animation is displayed during the UbuntuKylin System startup process.,Strongly Disagree
+12819,5430,[Text editor closes],"The verification is ""Window closed, X not visible."";",Disagree
+15416,1429,[The system boots properly and loads the installer displaying the Welcome dialog with language selection and 'Try FAMILY' and 'Install FAMILY' buttons],Verify that the system successfully boots from the specified RST-enabled UEFI image without network connectivity.,Strongly Disagree
+48720,1722,[Audio can be heard through the device],Verify that the MP3 file plays successfully through the HDMI0 port after adjusting the volume using alsamixer.,Disagree
+15307,1320,[You should be prompted for a user name],"Verify that user input is captured under a field labeled as ""Name"" or similar.",Disagree
+41424,1024,[Full drive space is allocated for installation],"""Verify that the full drive space of 102, 103, and empty header_text is correctly allocated as expected""",Disagree
+35297,1495,[Audio can be heard through the device],"The verification for the given action is: ""Mixer's volume is not set too low"".",Disagree
+30690,3490,"[On the Albums section, there will appear albums by Willie Nelson.]","The search result contains a music artist, specifically Willie Nelson or any other chosen artist.",Agree
+36715,2913,[The Routing Grid shows for the Drum input],"The ""Input to Drum"" button is clicked on the Drum track, and the ""Routing Grid"" option is chosen from the popup menu.",Disagree
+32521,5321,[Menu appears],Check if the search box displays the gear icon after clicking it. (Raw text: 'The gear icon is displayed to the right of the search box.'),Strongly Disagree
+32314,5114,[Changes were applied successfully?],"Check if the application remains open after performing the ""Close"" action.
+ 
+  (Raw Text: VerifyAppStateAfterCloseAction)",Strongly Disagree
+32658,5458,[New file copy of test appears in window],"Verify that the current row's header text is 'These Tests will check items in the Edit menu', which matches the input string. 
+ 
+ Explanation: By analyzing the given precondition, we can infer that this specific test case requires a verification of the header text present in the manual test. The task asks to generate a single-sentence response with no other texts, fulfilling the requirement of focusing only on the specified verification aspect.",Strongly Disagree
+24064,3473,"[A notification will appear: Purchase Complete., Notification will start to appear when each song of the album is being synchronized from your Ubuntu One account to this machine.]",Verify that the system has completed the authorization process before proceeding with the next step.,Disagree
+36372,2570,[An icon for the shared printer icon should automatically appear],The 'Printers - localhost' dialog is displayed on the client computer during the test.,Agree
+35740,1938,[The 'Erase disk and install FAMILY' radio button is selected],"The verification for the action ""Note the state of the 'Erase disk and install FAMILY' radio button"" is that the radio button is disabled.",Strongly Disagree
+60446,4860,[VLC media player launches],Verify that VLC media player is launched and playing.,Strongly Agree
+29647,2447,[There is a file called demo2.txt ],Check if the 'home' directory exists in the file manager by navigating to it. (Raw text: 'Check home directory in file manager'),Disagree
+17308,3321,[Window is maximized],Verify that the window is maximized.,Strongly Agree
+52912,5914,[The image zooms out.],"Verify that the page zooms out after clicking on the ""Zoom out"" toolbar icon.",Strongly Agree
+43227,2827,[The recorded sound plays through the monitors/speakers],"Verifying the click on ""Go to start of session"" button and play icon successfully initiates a new audio recording session.",Disagree
+44033,3633,[Xfwm4 workspace settings opens],Verifying that 'Workspaces' tab displays 'This will test the xfwm4 workspace settings' after opening Settings.,Strongly Disagree
+11003,3614,[The selected color is applied to the panel],The selected color is correctly applied to the XFCE4 panel.,Agree
+56525,934,[Provide password if requested. Pausing at this point should not cause an error],Verify that a bootable USB drive is created and is ready to be used.,Strongly Disagree
+34024,222,"[the search entry should show ""search music"" and you should have two categories, filled with the indexed music tracksalbums]","Sure, here's the verification for the action ""Click on the music lens icon"":
+ 
+  Element with ID 'music-lens' is clicked.",Disagree
+45092,4692,[rhythmbox should launch],"Verify: ""The Dash opened,超级键 launched Rhythmbox, and 'rhythmbox' entered, verifying playback from MTP-players""",Strongly Disagree
+26021,5430,[Text editor closes],The text editor window has closed.,Strongly Agree
+7402,13,[Are you able to connect?],"The verification should be ""Connection successful on all available network connections""!",Disagree
+42338,1938,[The 'Erase disk and install FAMILY' radio button is selected],Verify the state of the 'Erase disk and install FAMILY' radio button matches the expected value.,Agree
+21813,1222,[The timezone and city displayed match your timezone and the main city from your area],Verify that the noted timezone and the city match the system's current timezone and connected city.,Agree
+51093,4095,[Buttons return to default positions],Buttons returned to default positions successfully.,Strongly Agree
+36993,3191,[The application should close and the launcher should loose the focus],"Sure, here's the verification for the action ""Press enter"":
+ 
+ ""Verify that the element with ID '361' is selected after pressing Enter.""",Strongly Disagree
+24076,3485,[The browser will show the page for the album you clicked on the Music Store of the Ubuntu One website.],"The user is not redirected to a login page after clicking the ""Log in"" button.",Strongly Disagree
+15854,1867,[An X will appear by Free software only],Verify that the cursor moves to the 'Free Software' section under the specified test_id.,Disagree
+58459,2872,"[""Virtual MIDI keyboard"" opens.]","Verify that the ""Virtual MIDI keyboard"" program is running and its window is visible.",Disagree
+26536,5945,[The selected session starts],The system should display the user interface of the logged-in account after successful authentication.,Agree
+36511,2709,[The imported file now appears on the track pane with the waveform visible],"Sure, here's the verification for the action:
+ 
+ ""The element with id 'Track Pane' is found on the page.""",Disagree
+10811,3422,[The dash will show the Categories filter],"The test step is ""Mouse.click('search_arrow_next_to_search_field')"" with verification ""assert exists css_property==header_"".",Strongly Disagree
+20099,6112,[Volume of audio decreases and increases in response to volume change],The volume level slider moves smoothly to demonstrate responsiveness when hovering over each channel's Master volume control with a mouse wheel action.,Strongly Disagree
+26977,6386,"[The ""Create New Score"" window opens]","Verify that a new score creation window appears after clicking on the ""Create New Score"" icon.",Strongly Agree
+24715,4124,[Tick appears in dialogue],Verify that the cursor is outside the Wrap workspace boundary before selecting it.,Strongly Disagree
+28026,826,[The 'Welcome to FAMILY ' slide is displayed],"The page navigation bar remains visible after clicking on the continue button, as there are no conflicting styles or expressions affecting the layout. (CSS selector: #page_navigation)",Strongly Disagree
+43822,3422,[The dash will show the Categories filter],"Verifying that the header_text of the RealDictRow, containing (id=432, test__id=433, header_text='Test-case reference-dictionary'), displays when clicking the arrow next to the search field.",Strongly Disagree
+28653,1465,[The 'Enroll MOK' screen is displayed],"The Enroll MOK command was successfully added to the list of selected commands. 
+ 
+ (Note: In real-life scenarios, this would likely be accompanied by a confirmation message or an output from the system indicating the completion of the enrollment process for the MOK.)",Disagree
+26819,6228,[The menu opens],Verify that the menu appears after clicking the menu button.,Agree
+48542,1544,[Audio can be heard through the device],Verify that the volume is not set too low using alsamixer before retrying playback.,Disagree
+19938,5951,[Greeter screen shows],Verify logout redirects to the homepage with appropriate language selection displayed.,Strongly Disagree
+41923,1523,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verifying that the WiFi configuration is correctly set with SSID: my-ssid-here, password: my-password-here, IP address assigned to wlan0 and successful pings to google.com.",Disagree
+28910,1709,"[Reported ""Mem"" under ""total"" is consistent with a Raspberry Pi 400. It should be in the region of 3.6-3.8GB. ]","Verify if 'free -h' output contains lines with ""total disk space"" and ""available disk space."" Return result in raw text.
+ 
+ Example:
+ ```
+ du -sh /
+ ```",Strongly Disagree
+14804,817,[The 'Installation type' screen is displayed],Verify that the Continue button is enabled after clicking.,Strongly Disagree
+59442,3856,"[The ""Appearance"" module is loaded into the ""Settings"" window replacing the ""Settings"".]","Verify that the ""Appearance Setting Dialog"" is visible.",Disagree
+58851,3264,"[""File"" menu disappears, ""Edit"" menu appears]",Verify that the focus moves to the next field in the form.,Strongly Disagree
+37792,3990,[The file opens in LibreOffice Writer],"Sure, here's the verification:
+ 
+ > The .log file is opened successfully with LibreOffice Writer using right-click > Open with.",Agree
+12270,4881,[A new list with reviews in different language should appear],"The verification should be ""Assert that the Reviews dropdown is now in 'Any Language'"",.",Disagree
+15318,1331,[This should then reboot the machine],"""The system does not prompt for input as this action is not applicable to removing hardware devices.""",Strongly Disagree
+30964,3764,[Shortcut changes to Super+9],The desired key combination 'Super+9' has been pressed as part of the test action. (Raw text: Desired key combo : Super+9),Disagree
+36185,2383,[dpkg -l ubuntu-virt-server],"Sure, here's the verification for the action:
+ 
+ > ubuntu-virt-server package is installed.",Strongly Agree
+30799,3599,[The panel orientation is set to the selected orientation],"Check if the selected panel orientation is correctly saved and accessible for configuration preferences. 
+ 
+ Action: Select one of the desired panel orientations (e.g., vertical, horizontal) and confirm checkmark for the saved option.",Disagree
+45342,4942,"[Did the file save correctly?, Did the file save as pdf?]","The test step verifies saving the file as ""Scanned Document.pdf"" after changing its extension from ""Scanned Document.jpg.""",Agree
+14692,705,[The system boots properly and loads into FAMILY],Verify that the system successfully reboots after allowing the machine to reboot.,Disagree
+46688,6288,[New applications appear in Favourites menu],"""Verifying Favourites menu items are sorted alphabetically after selecting and adding applications with IDs 924 and 925.""",Strongly Disagree
+59700,4114,[Window snaps to screen border],Verify that the window snaps to the screen border.,Strongly Agree
+60380,4794,[Nautilus should launch showing the ubuntu one folder],Verify that a new window/tab opens with the path '~/Ubuntu One' displayed in the address bar.,Disagree
+44595,4195,[Tick appears in box],Verifying focus on Window Manager Tweaks and selecting 'Cycle through windows on all workspaces' step by verifying expected header_text 'This test will check options in Cycling tab' is present.,Strongly Disagree
+12366,4977,[File moveme.txtmoves to the folder test. Double click folder testto confirm the file moveme.txtis there.],"The verification step is ""Dragged file successfully moved to the specified folder"".",Strongly Agree
+38908,5106,"[You should see all discs availables to burn, If you don't have a disc, the ""write to"" section will be gray out]","Verify that the ""Select a disc to write to"" button is clicked.",Disagree
+59374,3788,[Warning dialogue appears],"Verify that the ""Use System Defaults"" checkbox is toggled.",Strongly Disagree
+17620,3633,[Xfwm4 workspace settings opens],"Verify that the ""xfwm4"" workspace settings are accessible within the Workspaces section of the Opened Settings window.",Agree
+25810,5219,[The torrent starts correctly],The torrent starts downloading.,Disagree
+50276,3278,"[Panel does not show window buttons, Panel shows the window title]",Window is maximized successfully.,Neutral
+42194,1794,[The timezone and city displayed match your timezone and the main city from your area],"""Verify that the selected timezone matches the actual connected network timezone and matches the city in the text box""",Agree
+62060,6474,[kolourpaint opens and showing one window by default],Verify that KolourPaint window is open and visible.,Agree
+16994,3007,[The dash should open in the music lens],Verify that pressing super + M results in a successful shortcut command execution with no error messages displayed.,Strongly Disagree
+43237,2837,[The cursor moves over the empty pattern and repeats continuously],"Click on the ""Play"" icon on the toolbar, expect header_text to be 'This test verifies Hydrogen's drum kit selection and beat creation.'",Strongly Disagree
+18565,4578,"[NetworkManager's icon swirls and then changes to ""unencrypted wireless connection up"" icon (4 half-circles icon by default)]",Verify that the Network Manager applet displays an available unencrypted Wi-Fi network.,Disagree
+27768,568,[Did you successfully login into the MAAS server with the admin user created?],Verify that an admin can log back in using the username 'ubuntuadm' and password previously created by checking the MAAS server's admin user list.,Disagree
+9220,1831,[The 'Preparing to install FAMILY' screen is displayed],"The verification result is ""Action successful, please wait for the next step""!",Disagree
+61880,6294,[The Display power management settings screen appears],"Verify the ""Display"" tab is selected.",Disagree
+29502,2302,"[service cups status, should state that the cupsd is running.]",Verify that cups is running by checking the system logs for active server instances and confirming the connection to the cupsd service.,Agree
+36558,2756,[The MIDI Input port is highlighted],The MIDI input port is highlighted on Qtractor.,Agree
+46502,6102,[Audio mixer opens],"Verify: ""期待看到'XFCE4 Mixer'打开，并在终端窗口显示 'xfce4-mixer'，按 Enter 键后程序自动关闭""",Strongly Disagree
+19479,5492,[Book1 closes leaving Book2 open],Close window of Book1 successfully after pressing Ctrl+W.,Disagree
+27265,65,[You should be able to log in and the desktop should be displayed],"Verify if the current user has access rights to install applications on the desktop by checking the preloaded permissions list. Returning the result as a single sentence string: ""Current user has no permission to install applications on the desktop.""",Disagree
+17163,3176,[No launcher icon should be focused],Verify that pressing alt + F1 again does not trigger any additional keyboard shortcuts or commands.,Strongly Disagree
+49692,2694,"[Open the krita application from GRAPHIC DESIGN subsection in Main Menu., Krita opens properly.]",Verify that Krita opens successfully after selecting it from the menu.,Strongly Agree
+39519,5717,[A window appears showing a new Sudoku],"Sure, here's the verification you requested:
+ 
+ The precondition verifies that the current game is a Sudoku game with the specified test case ID and header text.",Disagree
+52920,5922,[The thumbnail bar is visible in fullscreen mode.],The thumbnail bar should not be hidden when viewing an image in fullscreen mode.,Agree
+50751,3753,[xfce4-display-settings --minimal opens],Verify that the XF86Display key press triggers the expected action on the application.,Neutral
+41970,1570,[cmpreturns 0 and outputs nothing indicating the files are identical ],"""Verify the copied file size is within the 500MB range by comparing /mnt/stick/rubbish with /dev/urandom using cmp.""",Strongly Disagree
+25460,4869,[The Ubuntu Software Center is launched],Verify that the Ubuntu Software Center window is displayed.,Agree
+57338,1747,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]",Verify that wlan0 interface has a valid IP address and ping to google.com is successful.,Agree
+17090,3103,[Firefox should be maximized and occupy the whole width of the screen],Verify that Firefox is running with a maximized window size.,Agree
+40667,267,['Encrypt the new FAMILY Installation for security' and 'Use LVM with the new FAMILY Installation' is checked],"""Verifying that 'Use LVM with the new FAMILY Installation' and 'Encrypt the new FAMILY Installation for security' steps are correctly performed""",Strongly Disagree
+46383,5983,[Calculator closes],"Verifying: ""RealDictRow navigate to 'Edit' -> 'Quit' menu option displays 'This test will check that Gnome Calculator' header_text""",Strongly Agree
+21353,761,[The screen updates showing your desired partitions and mount points],"Verify that the selected drive can be partitioned and the 'Add', 'Change', and 'Delete' buttons function correctly to modify the partition scheme.",Disagree
+25277,4686,[New Podcast Feed window appears],A new podcast feed window should open after completing the 'New Podcast Feed' action.,Agree
+25055,4464,"[The PowerPoint file should open correctly in LibreOffice., The layout, the display of characters, bullets and numbering should display correctly.]",Verify that the LibreOffice Impress application opens the specified Powerpoint file with all special characters displayed correctly.,Agree
+13552,6163,"[Did the input method changed into ""Google pinyin""?Is the Chinese words input OK? ]","The test step would be ""Click the 'Fcitx' icon in the float bar, select 'Google Pinyin' from the 'Input Method' dropdown and verify the selected input method is indeed 'Google Pinyin'.""",Agree
+15691,1714,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that 'wifi' is configured with SSID and password, DHCP enabled, IP address assigned to wlan0 interface, and successful ping to google.com.",Agree
+26005,5414,[Thunar opens at /home/USER],Verify that Thunar application is opened after selecting it from the menu.,Disagree
+28723,1523,"[The ""wlan0"" interface should have a DHCP assigned IP address and you should be able to ping google.com ]","Verify that the wlan0 interface has a valid IP address and can successfully ping google.com multiple times, then restore the original network configuration.",Disagree
+24447,3856,"[The ""Appearance"" module is loaded into the ""Settings"" window replacing the ""Settings"".]","Verify that clicking on the ""Appearance"" module in the Settings dialog displays the Appearance Setting Dialog.",Disagree
+9082,1693,[Verify that you're inside the WSL instance and running the right distribution. For example run: # lsb_release -a No LSB modules are available. Distributor ID: Ubuntu Description: Ubuntu 20.04.3 LTS Release: 20.04 Codename: focal ],"The command ""wsl -d Ubuntu20.04.3"" is successfully executed.",Disagree
+20915,324,"[RAID1 array for /, RAID1 array for swap, RAID1 array for /home (testing non-rootfs raid)]","Verify that the partitioning method is set to ""Manual"" upon completing the given steps.",Disagree
+59737,4151,"[Selected Application launches without error, Application Finder closes]",Verify that the selected application is launched and the Application Finder window is closed.,Agree
+13019,5630,[gThumb's sidebar shows or hides accordingly to the choice made],"The verification is ""Verify 'View ->Sidebar' checkbox is checked"".",Strongly Disagree
+38147,4345,[File manager launches],"Sure, here's the verification for the action ""Open File Manager"":
+ 
+ ""File manager is opened successfully.""",Strongly Agree
+12111,4722,[The dialog connects to the providers login page],"The verification would be ""Expected 'Login' button to be enabled"".",Strongly Disagree
+32663,5463,[Sidepane changes to show Tree view],"The sidepane tree view is displayed when 'View' tab is selected. 
+ 
+ (Note: To provide a more comprehensive test description, please consider adding an explanation before each test step for better understanding and context.)",Disagree
+8741,1352,[The screen shows your desired partitions.],"The step is ""Click 'Create', wait for Save## and then Click 'Edit'"" and verification is ""assert the 'header_text' == 'Partition Name'"".",Strongly Disagree
+33418,6218,[Mugshot closes],"When clicking the 'Cancel' button, the verification would be: The 'Cancel' button reaction does not close the Mugshot application properly.",Strongly Disagree
